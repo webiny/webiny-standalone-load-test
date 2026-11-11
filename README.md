@@ -10,10 +10,16 @@ In the `webiny-js` checkout:
 ```
 yarn
 yarn build
-WEBINY_DB=postgres WEBINY_API_URL=http://localhost:3002 yarn webiny-standalone build api
-WEBINY_DB=postgres WEBINY_API_URL=http://localhost:3002 yarn webiny-standalone build admin
+export WEBINY_PROJECT_ID= WEBINY_PROJECT_API_KEY= WEBINY_DB=postgres WEBINY_API_URL=http://localhost:3002
+yarn webiny-standalone build api
+yarn webiny-standalone build admin
 git rev-parse --short HEAD   # record this next to every result
 ```
+
+The empty `WEBINY_PROJECT_ID` and `WEBINY_PROJECT_API_KEY` keep the build unlicensed. The monorepo's
+`.env` sets both, and a licensed build run without them at runtime breaks the CMS API (see
+`findings/01-license-mismatch-breaks-cms-schema.md`). Unlicensed matches CI's regular standalone
+variant and keeps calls to WCP out of the load runs; the scheduler is not license-gated.
 
 ## Running
 
