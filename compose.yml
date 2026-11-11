@@ -1,0 +1,121 @@
+# Webiny standalone under load: Postgres, Valkey, two API processes behind round-robin nginx,
+# the Admin app served statically, and k6 in a container of its own.
+#
+# Docker Desktop on this machine has 10 CPUs and 8 GB. The limits below add up to 8.5 CPUs and
+# 5.5 GB, so no container is starved by another one's burst and runs stay comparable.
+#
+# WEBINY_JS is the webiny-js checkout the API and Admin were built from (see README).
+
+x-api: &api
+    image: node:24-slim
+    working_dir: /app
+    command: ["node", "start.mjs"]
+    volumes:
+        - ${WEBINY_JS:?set WEBINY_JS}/.webiny/workspace/apps/api/graphql/build:/app:ro
+        - storage:/storage
+    env_file: .env
+    environment:
+        PORT: "3000"
+        WEBINY_API_URL: http://localhost:3002
+        WEBINY_ADMIN_URL: http://localhost:3001
+        WEBINY_LOCAL_STORAGE_PATH: /storage
+        WEBINY_REDIS_URL: redis://valkey:6379
+        WEBINY_PG_HOST: postgres
+        WEBINY_PG_PORT: "5432"
+        WEBINY_PG_USER: postgres
+        WEBINY_PG_PASSWORD: postgres
+        WEBINY_PG_DATABASE: webiny
+        WEBINY_PG_POOL_MAX: ${WEBINY_PG_POOL_MAX:-10}
+    depends_on:
+        postgres:
+            condition: service_healthy
+        valkey:
+            condition: service_started
+    stop_grace_period: 30s
+    deploy:
+        resources:
+            limits:
+                cpus: "1.5"
+                memory: 1g
+
+services:
+    postgres:
+        image: postgres:17
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: webiny
+        command: ["postgres", "-c", "max_connections=200", "-c", "shared_preload_libraries=pg_stat_statements"]
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+        healthcheck:
+            test: ["CMD", "pg_isready", "-U", "postgres"]
+            interval: 2s
+            timeout: 5s
+            retries: 30
+        deploy:
+            resources:
+                limits:
+                    cpus: "2"
+                    memory: 2g
+
+    valkey:
+        image: valkey/valkey:8
+        deploy:
+            resources:
+                limits:
+                    cpus: "0.5"
+                    memory: 256m
+
+    api-1:
+        <<: *api
+
+    api-2:
+        <<: *api
+
+    nginx:
+        image: nginx:1.27-alpine
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+        ports:
+            - "3002:3002"
+        depends_on:
+            - api-1
+            - api-2
+        deploy:
+            resources:
+                limits:
+                    cpus: "0.5"
+                    memory: 128m
+
+    admin:
+        image: nginx:1.27-alpine
+        volumes:
+            - ${WEBINY_JS:?set WEBINY_JS}/.webiny/workspace/apps/admin/build:/usr/share/nginx/html:ro
+            - ./nginx/admin.conf:/etc/nginx/conf.d/default.conf:ro
+        ports:
+            - "3001:80"
+        deploy:
+            resources:
+                limits:
+                    cpus: "0.25"
+                    memory: 64m
+
+    k6:
+        image: grafana/k6:latest
+        profiles: ["load"]
+        volumes:
+            - ./k6:/scripts:ro
+            - ./results:/results
+        environment:
+            API_URL: http://nginx:3002
+            API_KEY: ${API_KEY:-}
+        deploy:
+            resources:
+                limits:
+                    cpus: "2"
+                    memory: 1g
+
+volumes:
+    pgdata:
+    storage:
