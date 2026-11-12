@@ -1,0 +1,13 @@
+created 300/300 drafts
+scheduled 300/300 in 12.9 s, due 2026-11-11T19:41:19.950Z
+waiting until 2026-11-11T19:44:19.950Z
+file:///lt/scripts/schedule.mjs:33
+        throw new Error(`${res.status} ${JSON.stringify(body?.errors || body).slice(0, 300)}`);
+              ^
+
+Error: 502 null
+    at gql (file:///lt/scripts/schedule.mjs:33:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///lt/scripts/schedule.mjs:125:17
+
+Node.js v24.22.2

@@ -1,0 +1,11 @@
+name: sqlite-read-ramp
+started: 2026-11-11T12:43:57Z
+build: 6f462b597f-postgres-unlicensed
+webiny-js commit: 6f462b597f
+k6: ramp.js -e SCENARIO=read -e START=20 -e STEP=20
+WEBINY_PG_POOL_MAX: 10 (default)
+
+containers (cpus, memory limit):
+  webiny-standalone-load-test-sqlite-admin-1 cpus=0 mem=0MiB
+  webiny-standalone-load-test-sqlite-api-1 cpus=1.5 mem=1024MiB
+  webiny-standalone-load-test-sqlite-nginx-1 cpus=0.5 mem=128MiB

@@ -1,0 +1,8 @@
+90480 ms plan|587 ms exec|12398|7.30 ms/plan|0.05 ms/exec|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id 
+14930 ms plan|22271 ms exec|12398|1.20 ms/plan|1.80 ms/exec|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+3662 ms plan|240 ms exec|12548|0.29 ms/plan|0.02 ms/exec|select * from "webiny_core_tenants" where "id" in ($1)
+2956 ms plan|15935 ms exec|6331|0.47 ms/plan|2.52 ms/exec|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", 
+1217 ms plan|777 ms exec|18465|0.07 ms/plan|0.04 ms/exec|select * from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "entry_id" = $3 and "is_latest"
+1075 ms plan|913 ms exec|12134|0.09 ms/plan|0.08 ms/exec|select * from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = $3 limit $4
+907 ms plan|897 ms exec|12564|0.07 ms/plan|0.07 ms/exec|select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+805 ms plan|260 ms exec|12548|0.06 ms/plan|0.02 ms/exec|select * from "webiny_core_api_keys" where "tenant" = $1 and "token" = $2 limit $3

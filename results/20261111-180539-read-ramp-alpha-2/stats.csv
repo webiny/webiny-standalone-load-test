@@ -1,0 +1,526 @@
+time,container,cpu,mem
+18:05:39,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:05:39,lt-api-2-1,54.84%,135.5MiB / 1GiB
+18:05:39,lt-api-1-1,62.04%,145.1MiB / 1GiB
+18:05:39,lt-nginx-1,0.94%,10.13MiB / 128MiB
+18:05:39,lt-postgres-1,22.04%,322MiB / 2GiB
+18:05:39,lt-valkey-1,0.09%,3.805MiB / 256MiB
+18:05:39,host,2.58,8
+18:05:47,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:05:47,lt-api-2-1,22.11%,136.6MiB / 1GiB
+18:05:47,lt-api-1-1,23.04%,145.6MiB / 1GiB
+18:05:47,lt-nginx-1,0.64%,10.24MiB / 128MiB
+18:05:47,lt-postgres-1,9.39%,321.8MiB / 2GiB
+18:05:47,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:05:47,host,2.61,8
+18:05:54,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:05:54,lt-api-2-1,12.24%,137.5MiB / 1GiB
+18:05:54,lt-api-1-1,22.63%,146.6MiB / 1GiB
+18:05:54,lt-nginx-1,0.65%,9.859MiB / 128MiB
+18:05:54,lt-postgres-1,13.16%,322.1MiB / 2GiB
+18:05:54,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:05:54,host,2.21,8
+18:06:02,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:02,lt-api-2-1,13.45%,148.1MiB / 1GiB
+18:06:02,lt-api-1-1,21.59%,155.7MiB / 1GiB
+18:06:02,lt-nginx-1,0.60%,10.18MiB / 128MiB
+18:06:02,lt-postgres-1,8.96%,314.3MiB / 2GiB
+18:06:02,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:06:02,host,2.03,8
+18:06:09,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:09,lt-api-2-1,20.39%,148.7MiB / 1GiB
+18:06:09,lt-api-1-1,12.01%,156MiB / 1GiB
+18:06:09,lt-nginx-1,0.59%,10.09MiB / 128MiB
+18:06:09,lt-postgres-1,9.74%,314.3MiB / 2GiB
+18:06:09,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:06:09,host,2.19,8
+18:06:17,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:17,lt-api-2-1,11.53%,148.9MiB / 1GiB
+18:06:17,lt-api-1-1,21.02%,155.9MiB / 1GiB
+18:06:17,lt-nginx-1,0.63%,10.35MiB / 128MiB
+18:06:17,lt-postgres-1,12.93%,314.2MiB / 2GiB
+18:06:17,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:06:17,host,2.02,8
+18:06:24,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:24,lt-api-2-1,13.16%,148.9MiB / 1GiB
+18:06:24,lt-api-1-1,18.97%,156.2MiB / 1GiB
+18:06:24,lt-nginx-1,0.63%,9.883MiB / 128MiB
+18:06:24,lt-postgres-1,12.90%,318.9MiB / 2GiB
+18:06:24,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:06:24,host,1.79,8
+18:06:32,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:32,lt-api-2-1,13.32%,230MiB / 1GiB
+18:06:32,lt-api-1-1,19.23%,243.5MiB / 1GiB
+18:06:32,lt-nginx-1,0.63%,10.11MiB / 128MiB
+18:06:32,lt-postgres-1,8.68%,323.1MiB / 2GiB
+18:06:32,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:06:32,host,1.96,8
+18:06:39,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:39,lt-api-2-1,18.78%,230.1MiB / 1GiB
+18:06:39,lt-api-1-1,21.27%,243.5MiB / 1GiB
+18:06:39,lt-nginx-1,0.65%,10.14MiB / 128MiB
+18:06:39,lt-postgres-1,17.11%,322.9MiB / 2GiB
+18:06:39,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:06:39,host,1.81,8
+18:06:47,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:47,lt-api-2-1,31.93%,230.4MiB / 1GiB
+18:06:47,lt-api-1-1,30.80%,244MiB / 1GiB
+18:06:47,lt-nginx-1,1.13%,10.29MiB / 128MiB
+18:06:47,lt-postgres-1,22.23%,323MiB / 2GiB
+18:06:47,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:06:47,host,1.74,8
+18:06:54,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:06:54,lt-api-2-1,29.97%,230.9MiB / 1GiB
+18:06:54,lt-api-1-1,29.36%,244.2MiB / 1GiB
+18:06:54,lt-nginx-1,1.11%,10.66MiB / 128MiB
+18:06:54,lt-postgres-1,21.90%,322.9MiB / 2GiB
+18:06:54,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:06:54,host,2.00,8
+18:07:02,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:02,lt-api-2-1,30.06%,230.9MiB / 1GiB
+18:07:02,lt-api-1-1,24.52%,244.2MiB / 1GiB
+18:07:02,lt-nginx-1,1.18%,10.41MiB / 128MiB
+18:07:02,lt-postgres-1,22.44%,302.5MiB / 2GiB
+18:07:02,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:02,host,1.92,8
+18:07:10,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:10,lt-api-2-1,29.99%,231.3MiB / 1GiB
+18:07:10,lt-api-1-1,23.87%,244.5MiB / 1GiB
+18:07:10,lt-nginx-1,1.24%,10.44MiB / 128MiB
+18:07:10,lt-postgres-1,26.70%,302.4MiB / 2GiB
+18:07:10,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:10,host,1.70,8
+18:07:17,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:17,lt-api-2-1,28.18%,232.3MiB / 1GiB
+18:07:17,lt-api-1-1,30.61%,244.5MiB / 1GiB
+18:07:17,lt-nginx-1,1.02%,10.45MiB / 128MiB
+18:07:17,lt-postgres-1,17.50%,302.2MiB / 2GiB
+18:07:17,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:17,host,1.73,8
+18:07:25,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:25,lt-api-2-1,33.89%,232.7MiB / 1GiB
+18:07:25,lt-api-1-1,25.45%,244.5MiB / 1GiB
+18:07:25,lt-nginx-1,1.20%,10.39MiB / 128MiB
+18:07:25,lt-postgres-1,33.03%,323.9MiB / 2GiB
+18:07:25,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:07:25,host,1.61,8
+18:07:32,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:32,lt-api-2-1,32.68%,232.5MiB / 1GiB
+18:07:32,lt-api-1-1,31.29%,244.4MiB / 1GiB
+18:07:32,lt-nginx-1,1.17%,10.5MiB / 128MiB
+18:07:32,lt-postgres-1,22.41%,323.9MiB / 2GiB
+18:07:32,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:32,host,2.05,8
+18:07:40,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:40,lt-api-2-1,32.68%,232.8MiB / 1GiB
+18:07:40,lt-api-1-1,37.87%,244.8MiB / 1GiB
+18:07:40,lt-nginx-1,1.03%,10.41MiB / 128MiB
+18:07:40,lt-postgres-1,17.94%,323.6MiB / 2GiB
+18:07:40,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:40,host,1.88,8
+18:07:47,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:47,lt-api-2-1,41.40%,232.7MiB / 1GiB
+18:07:47,lt-api-1-1,40.64%,245.1MiB / 1GiB
+18:07:47,lt-nginx-1,1.56%,10.41MiB / 128MiB
+18:07:47,lt-postgres-1,30.68%,327.8MiB / 2GiB
+18:07:47,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:07:47,host,1.81,8
+18:07:55,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:07:55,lt-api-2-1,41.44%,233.4MiB / 1GiB
+18:07:55,lt-api-1-1,41.31%,245.4MiB / 1GiB
+18:07:55,lt-nginx-1,1.68%,10.72MiB / 128MiB
+18:07:55,lt-postgres-1,31.40%,312.9MiB / 2GiB
+18:07:55,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:07:55,host,1.69,8
+18:08:02,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:02,lt-api-2-1,32.77%,233.4MiB / 1GiB
+18:08:02,lt-api-1-1,39.39%,245.5MiB / 1GiB
+18:08:02,lt-nginx-1,1.57%,10.77MiB / 128MiB
+18:08:02,lt-postgres-1,25.58%,313MiB / 2GiB
+18:08:02,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:02,host,1.55,8
+18:08:10,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:10,lt-api-2-1,40.83%,234.2MiB / 1GiB
+18:08:10,lt-api-1-1,33.85%,246MiB / 1GiB
+18:08:10,lt-nginx-1,1.51%,10.57MiB / 128MiB
+18:08:10,lt-postgres-1,26.31%,312.8MiB / 2GiB
+18:08:10,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:10,host,1.62,8
+18:08:17,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:17,lt-api-2-1,33.59%,234.4MiB / 1GiB
+18:08:17,lt-api-1-1,38.29%,245.4MiB / 1GiB
+18:08:17,lt-nginx-1,1.48%,10.61MiB / 128MiB
+18:08:17,lt-postgres-1,29.59%,312.8MiB / 2GiB
+18:08:17,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:17,host,1.57,8
+18:08:25,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:25,lt-api-2-1,51.86%,234.8MiB / 1GiB
+18:08:25,lt-api-1-1,44.32%,246MiB / 1GiB
+18:08:25,lt-nginx-1,1.40%,10.75MiB / 128MiB
+18:08:25,lt-postgres-1,31.70%,317.9MiB / 2GiB
+18:08:25,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:25,host,1.40,8
+18:08:32,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:32,lt-api-2-1,47.28%,234.3MiB / 1GiB
+18:08:32,lt-api-1-1,48.93%,246MiB / 1GiB
+18:08:32,lt-nginx-1,1.44%,10.75MiB / 128MiB
+18:08:32,lt-postgres-1,25.21%,317.9MiB / 2GiB
+18:08:32,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:32,host,1.37,8
+18:08:40,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:40,lt-api-2-1,40.17%,234.5MiB / 1GiB
+18:08:40,lt-api-1-1,32.42%,246.3MiB / 1GiB
+18:08:40,lt-nginx-1,1.44%,10.48MiB / 128MiB
+18:08:40,lt-postgres-1,28.72%,318.2MiB / 2GiB
+18:08:40,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:40,host,1.30,8
+18:08:48,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:48,lt-api-2-1,52.89%,236MiB / 1GiB
+18:08:48,lt-api-1-1,51.27%,246.3MiB / 1GiB
+18:08:48,lt-nginx-1,1.76%,10.58MiB / 128MiB
+18:08:48,lt-postgres-1,39.08%,322.4MiB / 2GiB
+18:08:48,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:08:48,host,1.20,8
+18:08:55,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:08:55,lt-api-2-1,51.50%,236.5MiB / 1GiB
+18:08:55,lt-api-1-1,49.88%,246.3MiB / 1GiB
+18:08:55,lt-nginx-1,1.81%,10.86MiB / 128MiB
+18:08:55,lt-postgres-1,35.65%,315MiB / 2GiB
+18:08:55,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:08:55,host,1.17,8
+18:09:03,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:03,lt-api-2-1,52.87%,236.1MiB / 1GiB
+18:09:03,lt-api-1-1,48.57%,246.5MiB / 1GiB
+18:09:03,lt-nginx-1,2.01%,10.58MiB / 128MiB
+18:09:03,lt-postgres-1,42.84%,315.1MiB / 2GiB
+18:09:03,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:09:03,host,1.15,8
+18:09:10,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:10,lt-api-2-1,53.30%,236.3MiB / 1GiB
+18:09:10,lt-api-1-1,49.21%,246.5MiB / 1GiB
+18:09:10,lt-nginx-1,1.83%,11MiB / 128MiB
+18:09:10,lt-postgres-1,38.19%,315.6MiB / 2GiB
+18:09:10,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:09:10,host,1.06,8
+18:09:18,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:18,lt-api-2-1,51.16%,235.9MiB / 1GiB
+18:09:18,lt-api-1-1,48.48%,246.4MiB / 1GiB
+18:09:18,lt-nginx-1,1.98%,10.56MiB / 128MiB
+18:09:18,lt-postgres-1,38.52%,315.1MiB / 2GiB
+18:09:18,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:09:18,host,1.21,8
+18:09:25,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:25,lt-api-2-1,63.44%,236.6MiB / 1GiB
+18:09:25,lt-api-1-1,60.96%,246.9MiB / 1GiB
+18:09:25,lt-nginx-1,1.81%,10.86MiB / 128MiB
+18:09:25,lt-postgres-1,43.48%,327.2MiB / 2GiB
+18:09:25,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:09:25,host,1.18,8
+18:09:33,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:33,lt-api-2-1,61.58%,236.8MiB / 1GiB
+18:09:33,lt-api-1-1,56.59%,246.8MiB / 1GiB
+18:09:33,lt-nginx-1,2.11%,11.26MiB / 128MiB
+18:09:33,lt-postgres-1,42.16%,327.6MiB / 2GiB
+18:09:33,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:09:33,host,1.57,8
+18:09:40,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:40,lt-api-2-1,49.12%,236.6MiB / 1GiB
+18:09:40,lt-api-1-1,46.90%,246.6MiB / 1GiB
+18:09:40,lt-nginx-1,1.66%,11MiB / 128MiB
+18:09:40,lt-postgres-1,34.78%,327.4MiB / 2GiB
+18:09:40,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:09:40,host,1.55,8
+18:09:48,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:48,lt-api-2-1,64.83%,236.2MiB / 1GiB
+18:09:48,lt-api-1-1,56.35%,246.6MiB / 1GiB
+18:09:48,lt-nginx-1,2.49%,11.18MiB / 128MiB
+18:09:48,lt-postgres-1,48.79%,327.8MiB / 2GiB
+18:09:48,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:09:48,host,1.59,8
+18:09:55,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:09:55,lt-api-2-1,57.61%,236.9MiB / 1GiB
+18:09:55,lt-api-1-1,65.88%,246.7MiB / 1GiB
+18:09:55,lt-nginx-1,2.28%,11.38MiB / 128MiB
+18:09:55,lt-postgres-1,45.89%,326.4MiB / 2GiB
+18:09:55,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:09:55,host,1.65,8
+18:10:03,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:03,lt-api-2-1,60.87%,239MiB / 1GiB
+18:10:03,lt-api-1-1,58.18%,246.7MiB / 1GiB
+18:10:03,lt-nginx-1,1.97%,11MiB / 128MiB
+18:10:03,lt-postgres-1,40.85%,332.4MiB / 2GiB
+18:10:03,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:10:03,host,1.68,8
+18:10:10,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:10,lt-api-2-1,60.86%,238.6MiB / 1GiB
+18:10:10,lt-api-1-1,54.74%,246.7MiB / 1GiB
+18:10:10,lt-nginx-1,2.04%,11.47MiB / 128MiB
+18:10:10,lt-postgres-1,41.72%,332.5MiB / 2GiB
+18:10:10,lt-valkey-1,0.11%,3.555MiB / 256MiB
+18:10:10,host,1.89,8
+18:10:18,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:18,lt-api-2-1,57.81%,238.8MiB / 1GiB
+18:10:18,lt-api-1-1,55.40%,246.8MiB / 1GiB
+18:10:18,lt-nginx-1,2.26%,11.41MiB / 128MiB
+18:10:18,lt-postgres-1,44.63%,332.6MiB / 2GiB
+18:10:18,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:10:18,host,1.82,8
+18:10:26,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:26,lt-api-2-1,56.41%,239.2MiB / 1GiB
+18:10:26,lt-api-1-1,66.82%,246.8MiB / 1GiB
+18:10:26,lt-nginx-1,2.28%,11.47MiB / 128MiB
+18:10:26,lt-postgres-1,40.71%,334MiB / 2GiB
+18:10:26,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:10:26,host,2.47,8
+18:10:33,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:33,lt-api-2-1,58.30%,238.8MiB / 1GiB
+18:10:33,lt-api-1-1,56.83%,246.9MiB / 1GiB
+18:10:33,lt-nginx-1,2.07%,11.96MiB / 128MiB
+18:10:33,lt-postgres-1,40.64%,334.5MiB / 2GiB
+18:10:33,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:10:33,host,2.67,8
+18:10:41,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:41,lt-api-2-1,59.78%,238.8MiB / 1GiB
+18:10:41,lt-api-1-1,64.46%,247.2MiB / 1GiB
+18:10:41,lt-nginx-1,2.37%,11.47MiB / 128MiB
+18:10:41,lt-postgres-1,44.54%,334.2MiB / 2GiB
+18:10:41,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:10:41,host,2.81,8
+18:10:48,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:48,lt-api-2-1,73.57%,239.2MiB / 1GiB
+18:10:48,lt-api-1-1,69.76%,247MiB / 1GiB
+18:10:48,lt-nginx-1,2.50%,11.16MiB / 128MiB
+18:10:48,lt-postgres-1,52.74%,340.7MiB / 2GiB
+18:10:48,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:10:48,host,3.14,8
+18:10:56,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:10:56,lt-api-2-1,62.63%,239.3MiB / 1GiB
+18:10:56,lt-api-1-1,77.41%,247.1MiB / 1GiB
+18:10:56,lt-nginx-1,2.57%,11.31MiB / 128MiB
+18:10:56,lt-postgres-1,47.43%,340.8MiB / 2GiB
+18:10:56,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:10:56,host,2.97,8
+18:11:03,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:03,lt-api-2-1,80.23%,239.5MiB / 1GiB
+18:11:03,lt-api-1-1,67.20%,247.1MiB / 1GiB
+18:11:03,lt-nginx-1,2.49%,11.44MiB / 128MiB
+18:11:03,lt-postgres-1,53.80%,341MiB / 2GiB
+18:11:03,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:11:03,host,2.89,8
+18:11:11,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:11,lt-api-2-1,80.17%,239.6MiB / 1GiB
+18:11:11,lt-api-1-1,69.49%,247.1MiB / 1GiB
+18:11:11,lt-nginx-1,2.54%,11.41MiB / 128MiB
+18:11:11,lt-postgres-1,50.64%,343.4MiB / 2GiB
+18:11:11,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:11:11,host,3.12,8
+18:11:18,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:18,lt-api-2-1,74.50%,239.9MiB / 1GiB
+18:11:18,lt-api-1-1,71.10%,247.5MiB / 1GiB
+18:11:18,lt-nginx-1,2.68%,11.93MiB / 128MiB
+18:11:18,lt-postgres-1,52.09%,346MiB / 2GiB
+18:11:18,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:11:18,host,2.87,8
+18:11:26,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:26,lt-api-2-1,67.47%,240.1MiB / 1GiB
+18:11:26,lt-api-1-1,69.05%,247.6MiB / 1GiB
+18:11:26,lt-nginx-1,2.49%,11.63MiB / 128MiB
+18:11:26,lt-postgres-1,57.68%,347.5MiB / 2GiB
+18:11:26,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:11:26,host,3.12,8
+18:11:33,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:33,lt-api-2-1,75.27%,240.2MiB / 1GiB
+18:11:33,lt-api-1-1,72.65%,248MiB / 1GiB
+18:11:33,lt-nginx-1,2.63%,11.77MiB / 128MiB
+18:11:33,lt-postgres-1,54.47%,351.9MiB / 2GiB
+18:11:33,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:11:33,host,3.35,8
+18:11:41,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:41,lt-api-2-1,71.77%,240.2MiB / 1GiB
+18:11:41,lt-api-1-1,70.14%,247.8MiB / 1GiB
+18:11:41,lt-nginx-1,2.87%,11.64MiB / 128MiB
+18:11:41,lt-postgres-1,55.77%,347.3MiB / 2GiB
+18:11:41,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:11:41,host,3.32,8
+18:11:48,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:48,lt-api-2-1,81.52%,242.7MiB / 1GiB
+18:11:48,lt-api-1-1,85.74%,248.3MiB / 1GiB
+18:11:48,lt-nginx-1,3.00%,11.93MiB / 128MiB
+18:11:48,lt-postgres-1,65.13%,361.6MiB / 2GiB
+18:11:48,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:11:48,host,3.27,8
+18:11:56,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:11:56,lt-api-2-1,77.61%,242.2MiB / 1GiB
+18:11:56,lt-api-1-1,77.42%,248.9MiB / 1GiB
+18:11:56,lt-nginx-1,3.10%,11.6MiB / 128MiB
+18:11:56,lt-postgres-1,67.27%,361.3MiB / 2GiB
+18:11:56,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:11:56,host,3.25,8
+18:12:04,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:04,lt-api-2-1,78.37%,242.6MiB / 1GiB
+18:12:04,lt-api-1-1,75.84%,248.9MiB / 1GiB
+18:12:04,lt-nginx-1,2.56%,11.82MiB / 128MiB
+18:12:04,lt-postgres-1,57.35%,361.4MiB / 2GiB
+18:12:04,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:04,host,3.35,8
+18:12:11,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:11,lt-api-2-1,91.39%,242.2MiB / 1GiB
+18:12:11,lt-api-1-1,87.53%,248.6MiB / 1GiB
+18:12:11,lt-nginx-1,3.33%,11.87MiB / 128MiB
+18:12:11,lt-postgres-1,70.04%,361.1MiB / 2GiB
+18:12:11,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:11,host,3.24,8
+18:12:19,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:19,lt-api-2-1,86.00%,242.1MiB / 1GiB
+18:12:19,lt-api-1-1,73.88%,248.9MiB / 1GiB
+18:12:19,lt-nginx-1,2.82%,11.82MiB / 128MiB
+18:12:19,lt-postgres-1,62.36%,361.1MiB / 2GiB
+18:12:19,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:19,host,3.35,8
+18:12:26,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:26,lt-api-2-1,87.33%,242.3MiB / 1GiB
+18:12:26,lt-api-1-1,77.67%,249.1MiB / 1GiB
+18:12:26,lt-nginx-1,2.68%,12.01MiB / 128MiB
+18:12:26,lt-postgres-1,56.27%,363.1MiB / 2GiB
+18:12:26,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:26,host,3.24,8
+18:12:34,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:34,lt-api-2-1,80.89%,242.4MiB / 1GiB
+18:12:34,lt-api-1-1,77.36%,249MiB / 1GiB
+18:12:34,lt-nginx-1,2.64%,11.93MiB / 128MiB
+18:12:34,lt-postgres-1,58.75%,363.5MiB / 2GiB
+18:12:34,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:34,host,2.97,8
+18:12:41,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:41,lt-api-2-1,86.71%,242.6MiB / 1GiB
+18:12:41,lt-api-1-1,73.26%,249MiB / 1GiB
+18:12:41,lt-nginx-1,2.71%,11.74MiB / 128MiB
+18:12:41,lt-postgres-1,63.22%,363.3MiB / 2GiB
+18:12:41,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:41,host,3.06,8
+18:12:49,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:49,lt-api-2-1,98.22%,242.4MiB / 1GiB
+18:12:49,lt-api-1-1,94.89%,249.2MiB / 1GiB
+18:12:49,lt-nginx-1,3.11%,12.09MiB / 128MiB
+18:12:49,lt-postgres-1,65.89%,360.8MiB / 2GiB
+18:12:49,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:49,host,3.33,8
+18:12:56,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:12:56,lt-api-2-1,98.69%,245.3MiB / 1GiB
+18:12:56,lt-api-1-1,88.17%,253.5MiB / 1GiB
+18:12:56,lt-nginx-1,3.26%,11.99MiB / 128MiB
+18:12:56,lt-postgres-1,66.36%,368.9MiB / 2GiB
+18:12:56,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:12:56,host,3.22,8
+18:13:04,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:04,lt-api-2-1,98.35%,244.8MiB / 1GiB
+18:13:04,lt-api-1-1,85.92%,253.7MiB / 1GiB
+18:13:04,lt-nginx-1,3.32%,11.79MiB / 128MiB
+18:13:04,lt-postgres-1,70.62%,373.8MiB / 2GiB
+18:13:04,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:04,host,3.51,8
+18:13:11,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:11,lt-api-2-1,98.79%,245MiB / 1GiB
+18:13:11,lt-api-1-1,85.73%,253.7MiB / 1GiB
+18:13:11,lt-nginx-1,3.09%,12.45MiB / 128MiB
+18:13:11,lt-postgres-1,66.48%,373.6MiB / 2GiB
+18:13:11,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:11,host,3.95,8
+18:13:19,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:19,lt-api-2-1,88.58%,244.9MiB / 1GiB
+18:13:19,lt-api-1-1,89.40%,254MiB / 1GiB
+18:13:19,lt-nginx-1,3.11%,12.17MiB / 128MiB
+18:13:19,lt-postgres-1,64.56%,367.4MiB / 2GiB
+18:13:19,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:19,host,3.66,8
+18:13:26,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:26,lt-api-2-1,96.43%,245.2MiB / 1GiB
+18:13:26,lt-api-1-1,99.71%,254.2MiB / 1GiB
+18:13:26,lt-nginx-1,3.31%,12.18MiB / 128MiB
+18:13:26,lt-postgres-1,66.07%,372.1MiB / 2GiB
+18:13:26,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:26,host,3.84,8
+18:13:34,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:34,lt-api-2-1,99.05%,245.2MiB / 1GiB
+18:13:34,lt-api-1-1,97.21%,254.3MiB / 1GiB
+18:13:34,lt-nginx-1,3.11%,12.65MiB / 128MiB
+18:13:34,lt-postgres-1,66.53%,367.9MiB / 2GiB
+18:13:34,lt-valkey-1,0.12%,3.555MiB / 256MiB
+18:13:34,host,4.00,8
+18:13:42,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:42,lt-api-2-1,96.47%,245MiB / 1GiB
+18:13:42,lt-api-1-1,94.08%,254.1MiB / 1GiB
+18:13:42,lt-nginx-1,3.00%,12.18MiB / 128MiB
+18:13:42,lt-postgres-1,65.24%,367.9MiB / 2GiB
+18:13:42,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:42,host,3.92,8
+18:13:49,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:49,lt-api-2-1,105.66%,245.2MiB / 1GiB
+18:13:49,lt-api-1-1,101.51%,254MiB / 1GiB
+18:13:49,lt-nginx-1,3.60%,12.16MiB / 128MiB
+18:13:49,lt-postgres-1,82.24%,377.7MiB / 2GiB
+18:13:49,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:49,host,4.14,8
+18:13:57,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:13:57,lt-api-2-1,105.68%,245.7MiB / 1GiB
+18:13:57,lt-api-1-1,102.63%,254.2MiB / 1GiB
+18:13:57,lt-nginx-1,3.32%,11.97MiB / 128MiB
+18:13:57,lt-postgres-1,72.37%,388.5MiB / 2GiB
+18:13:57,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:13:57,host,4.05,8
+18:14:04,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:04,lt-api-2-1,106.35%,245.4MiB / 1GiB
+18:14:04,lt-api-1-1,100.97%,254.2MiB / 1GiB
+18:14:04,lt-nginx-1,3.70%,12.14MiB / 128MiB
+18:14:04,lt-postgres-1,78.60%,406.1MiB / 2GiB
+18:14:04,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:04,host,4.55,8
+18:14:12,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:12,lt-api-2-1,106.93%,245.4MiB / 1GiB
+18:14:12,lt-api-1-1,100.22%,254MiB / 1GiB
+18:14:12,lt-nginx-1,3.78%,12.49MiB / 128MiB
+18:14:12,lt-postgres-1,78.41%,406.5MiB / 2GiB
+18:14:12,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:12,host,5.07,8
+18:14:19,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:19,lt-api-2-1,105.24%,245.6MiB / 1GiB
+18:14:19,lt-api-1-1,100.05%,253.8MiB / 1GiB
+18:14:19,lt-nginx-1,3.59%,12.09MiB / 128MiB
+18:14:19,lt-postgres-1,78.39%,406.5MiB / 2GiB
+18:14:19,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:19,host,4.76,8
+18:14:27,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:27,lt-api-2-1,109.47%,245.5MiB / 1GiB
+18:14:27,lt-api-1-1,107.01%,253.9MiB / 1GiB
+18:14:27,lt-nginx-1,3.38%,12.8MiB / 128MiB
+18:14:27,lt-postgres-1,77.03%,406.5MiB / 2GiB
+18:14:27,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:27,host,4.62,8
+18:14:34,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:34,lt-api-2-1,105.96%,245.4MiB / 1GiB
+18:14:34,lt-api-1-1,93.86%,254.1MiB / 1GiB
+18:14:34,lt-nginx-1,3.37%,12.42MiB / 128MiB
+18:14:34,lt-postgres-1,76.29%,378.2MiB / 2GiB
+18:14:34,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:34,host,4.51,8
+18:14:42,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:42,lt-api-2-1,114.28%,245.4MiB / 1GiB
+18:14:42,lt-api-1-1,97.76%,254.4MiB / 1GiB
+18:14:42,lt-nginx-1,3.28%,12.71MiB / 128MiB
+18:14:42,lt-postgres-1,81.71%,382.8MiB / 2GiB
+18:14:42,lt-valkey-1,0.11%,3.805MiB / 256MiB
+18:14:42,host,4.71,8
+18:14:49,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:49,lt-api-2-1,118.69%,275.6MiB / 1GiB
+18:14:49,lt-api-1-1,112.78%,257.5MiB / 1GiB
+18:14:49,lt-nginx-1,3.55%,12.83MiB / 128MiB
+18:14:49,lt-postgres-1,86.69%,410.2MiB / 2GiB
+18:14:49,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:49,host,5.87,8
+18:14:57,lt-admin-1,0.00%,2.211MiB / 64MiB
+18:14:57,lt-api-2-1,121.86%,298.3MiB / 1GiB
+18:14:57,lt-api-1-1,119.09%,257.6MiB / 1GiB
+18:14:57,lt-nginx-1,3.91%,13.91MiB / 128MiB
+18:14:57,lt-postgres-1,94.72%,410.4MiB / 2GiB
+18:14:57,lt-valkey-1,0.12%,3.805MiB / 256MiB
+18:14:57,host,5.64,8

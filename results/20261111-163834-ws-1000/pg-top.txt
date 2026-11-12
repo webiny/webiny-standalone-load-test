@@ -1,0 +1,15 @@
+7756 ms total,5626,1.38 ms mean,select * from information_schema.columns where table_name = $1 and column_name = $2 and table_schema = current_schema()
+78 ms total,120,0.65 ms mean,select * from "WebsocketsConnections" where "identityId" = $1
+62 ms total,1000,0.06 ms mean,insert into "WebsocketsConnections" ("connectedOn", "connectionId", "endpoint", "identityDisplayName", "identityId", "identityType", "lastSeen", "owner", "tenant") values ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+60 ms total,2251,0.03 ms mean,select * from information_schema.tables where table_name = $1 and table_schema = current_schema()
+49 ms total,120,0.41 ms mean,select * from "WebsocketsConnections" where "connectionId" in ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44, $45, $46, $47, $48, $49, $
+36 ms total,60,0.59 ms mean,insert into "webiny_cms_search" ("entry_id", "id", "ix", "n1", "n10", "n15", "n3", "n8", "scope_id", "t1", "t10", "t12", "t17", "t18", "t2", "t22", "t23", "t24", "t26", "t3", "t5", "tok", "tsv", "view") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20
+13 ms total,120,0.11 ms mean,delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+9 ms total,133,0.07 ms mean,select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+7 ms total,41,0.17 ms mean,select state, coalesce(wait_event_type, $1), count(*) from pg_stat_activity where datname = $2 and pid <> pg_backend_pid() group by 1, 2
+6 ms total,6,1.04 ms mean,EXPLAIN (FORMAT JSON) SELECT $3 FROM "webiny_cms_search" WHERE scope_id = $1 AND view = $2 AND ix
+5 ms total,120,0.04 ms mean,select "entry_id", "version", "is_latest", "is_published", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and ("is_latest" = $3 or "is_published" = $4) and entry_id = ANY($5::text[])
+5 ms total,60,0.08 ms mean,insert into "webiny_cms_entries" ("data", "entry_id", "id", "is_latest", "is_published", "model_id", "tenant", "version", "wby_deleted") values ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+4 ms total,4,1.12 ms mean,EXPLAIN (FORMAT JSON) SELECT $2 FROM "webiny_cms_search" WHERE tok @> $1::text[]
+3 ms total,119,0.03 ms mean,select "entry_id", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "is_latest" = $3 and "wby_deleted" = $4 and entry_id = ANY($5::text[])
+3 ms total,6,0.51 ms mean,EXPLAIN (FORMAT JSON) SELECT $2 FROM "webiny_cms_search" WHERE scope_id = $1 AND ix

@@ -4,17 +4,21 @@
 # Docker Desktop on this machine has 10 CPUs and 8 GB. The limits below add up to 8.5 CPUs and
 # 5.5 GB, so no container is starved by another one's burst and runs stay comparable.
 #
-# WEBINY_JS is the webiny-js checkout the API and Admin were built from (see README).
+# WEBINY_BUILD names a folder under builds/ holding a copy of the API and Admin build folders,
+# taken right after building (see README). A copy, so rebuilding the checkout never changes what a
+# running test is serving.
 
 x-api: &api
     image: node:24-slim
     working_dir: /app
-    command: ["node", "start.mjs"]
+    # monitor.mjs prints RSS and event-loop lag every 5 s as LTMON lines.
+    command: ["node", "--import", "/monitor/monitor.mjs", "start.mjs"]
     volumes:
-        - ${WEBINY_JS:?set WEBINY_JS}/.webiny/workspace/apps/api/graphql/build:/app:ro
+        - ./builds/${WEBINY_BUILD:?set WEBINY_BUILD}/api:/app:ro
+        - ./monitor:/monitor:ro
         - storage:/storage
     env_file: .env
-    environment:
+    environment: &api-env
         PORT: "3000"
         WEBINY_API_URL: http://localhost:3002
         WEBINY_ADMIN_URL: http://localhost:3001
@@ -24,7 +28,7 @@ x-api: &api
         WEBINY_PG_PORT: "5432"
         WEBINY_PG_USER: postgres
         WEBINY_PG_PASSWORD: postgres
-        WEBINY_PG_DATABASE: webiny
+        WEBINY_PG_DATABASE: ${WEBINY_PG_DATABASE:-webiny}
         WEBINY_PG_POOL_MAX: ${WEBINY_PG_POOL_MAX:-10}
     depends_on:
         postgres:
@@ -69,9 +73,15 @@ services:
 
     api-1:
         <<: *api
+        environment:
+            <<: *api-env
+            LT_PROC_NAME: api-1
 
     api-2:
         <<: *api
+        environment:
+            <<: *api-env
+            LT_PROC_NAME: api-2
 
     nginx:
         image: nginx:1.27-alpine
@@ -91,7 +101,7 @@ services:
     admin:
         image: nginx:1.27-alpine
         volumes:
-            - ${WEBINY_JS:?set WEBINY_JS}/.webiny/workspace/apps/admin/build:/usr/share/nginx/html:ro
+            - ./builds/${WEBINY_BUILD:?set WEBINY_BUILD}/admin:/usr/share/nginx/html:ro
             - ./nginx/admin.conf:/etc/nginx/conf.d/default.conf:ro
         ports:
             - "3001:80"
@@ -106,6 +116,25 @@ services:
         profiles: ["load"]
         volumes:
             - ./k6:/scripts:ro
+            - ./results:/results
+        environment:
+            API_URL: http://nginx:3002
+            API_KEY: ${API_KEY:-}
+        deploy:
+            resources:
+                limits:
+                    cpus: "2"
+                    memory: 1g
+
+    # Node clients for what k6 can't measure well (websocket fan-out across processes, scheduler
+    # and task checks). Same place in the stack as k6: outside the API containers. Not run together
+    # with k6, so the two never compete for the same CPUs.
+    client:
+        image: node:24-slim
+        profiles: ["load"]
+        working_dir: /lt
+        volumes:
+            - ./scripts:/lt/scripts:ro
             - ./results:/results
         environment:
             API_URL: http://nginx:3002

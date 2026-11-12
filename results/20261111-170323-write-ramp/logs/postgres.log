@@ -1,0 +1,4 @@
+postgres-1  | 2026-11-11 16:04:04.216 UTC [27] LOG:  checkpoint complete: wrote 7098 buffers (43.3%); 0 WAL file(s) added, 0 removed, 3 recycled; write=269.297 s, sync=0.135 s, total=269.442 s; sync files=501, longest=0.006 s, average=0.001 s; distance=49257 kB, estimate=311472 kB; lsn=1/54FFF8C0, redo lsn=1/541D4040
+postgres-1  | 2026-11-11 16:04:34.241 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 16:06:24.331 UTC [27] LOG:  checkpoint complete: wrote 1083 buffers (6.6%); 0 WAL file(s) added, 0 removed, 1 recycled; write=110.012 s, sync=0.071 s, total=110.090 s; sync files=56, longest=0.007 s, average=0.002 s; distance=29649 kB, estimate=283290 kB; lsn=1/5D1989C8, redo lsn=1/55EC8578
+postgres-1  | 2026-11-11 16:09:34.400 UTC [27] LOG:  checkpoint starting: time

@@ -1,0 +1,6 @@
+postgres-1  | 2026-11-11 10:14:26.174 UTC [1] LOG:  received SIGHUP, reloading configuration files
+postgres-1  | 2026-11-11 10:14:26.175 UTC [1] LOG:  parameter "pg_stat_statements.track_planning" removed from configuration file, reset to default
+postgres-1  | 2026-11-11 10:14:26.175 UTC [1] LOG:  parameter "max_connections" cannot be changed without restarting the server
+postgres-1  | 2026-11-11 10:14:26.175 UTC [1] LOG:  configuration file "/var/lib/postgresql/data/postgresql.conf" contains errors; unaffected changes were applied
+postgres-1  | 2026-11-11 10:16:24.100 UTC [27] LOG:  checkpoint complete: wrote 7426 buffers (45.3%); 0 WAL file(s) added, 0 removed, 26 recycled; write=269.838 s, sync=0.015 s, total=269.968 s; sync files=68, longest=0.003 s, average=0.001 s; distance=419532 kB, estimate=443588 kB; lsn=0/69794440, redo lsn=0/62081168
+postgres-1  | 2026-11-11 10:16:54.094 UTC [27] LOG:  checkpoint starting: time

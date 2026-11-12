@@ -1,0 +1,114 @@
+10:41:05.267|16354|active|:|4|{}|SELECT (v_count + n_count)::int AS total, n_count::int AS nulls FROM (SELECT (SELECT count(*) FROM (SELECT 1 FROM "webiny_cms_search" WHERE 
+10:41:08.448|16355|active|:|5|{}|SELECT (v_count + n_count)::int AS total, n_count::int AS nulls FROM (SELECT (SELECT count(*) FROM (SELECT 1 FROM "webiny_cms_search" WHERE 
+10:41:10.553|16354|active|:|0|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE tok @> $1::text[]
+10:41:21.013|16355|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:41:34.604|16355|active|:|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, t22 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:41:43.009|16355|active|:|4|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:41:52.403|16355|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:41:55.555|16332|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:41:56.599|16331|active|:|0|{}|select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+10:42:07.557|16332|idle in transaction|Client:ClientRead|4|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:42:08.611|16331|active|:|10|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, t22 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:42:09.653|16332|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:42:17.487|16332|active|:|5|{}|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n3
+10:42:18.527|16332|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n17 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:42:23.777|16332|idle in transaction|Client:ClientRead|0|{}|BEGIN;
+10:42:28.981|16332|active|:|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:42:30.028|16332|active|:|2|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:42:36.304|16331|idle in transaction|Client:ClientRead|4|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:42:39.971|16355|idle in transaction|Client:ClientRead|6|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:42:41.018|16355|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:42:42.584|16332|idle in transaction|Client:ClientRead|1|{}|insert into "webiny_cms_entries" ("data", "entry_id", "id", "is_latest", "is_published", "model_id", "tenant", "version", "wby_deleted") val
+10:42:43.104|16355|active|:|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:42:49.411|16355|active|:|2|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:42:50.456|16355|idle in transaction|Client:ClientRead|4|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:42:51.501|16355|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:42:52.024|16354|active|:|0|{}|select * from "webiny_core_api_keys" where "tenant" = $1 and "token" = $2 limit $3
+10:42:57.255|16331|active|:|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n17 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:42:58.829|16332|active|:|0|{}|select "id", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = ANY($3::text[])
+10:43:00.993|16332|idle in transaction|Client:ClientRead|3|{}|insert into "webiny_cms_entries" ("data", "entry_id", "id", "is_latest", "is_published", "model_id", "tenant", "version", "wby_deleted") val
+10:43:05.179|17550|active|:|0|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:06.757|16355|active|:|3|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:43:07.821|16355|idle in transaction|Client:ClientRead|47|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:43:07.821|16331|idle in transaction|:|4|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:43:08.884|16332|active|:|6|{}|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n3
+10:43:09.941|16332|active|:|0|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:10.988|17552|idle in transaction|Client:ClientRead|5|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:11.512|16355|active|:|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:13.602|17552|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:17.271|17552|idle in transaction|Client:ClientRead|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n17 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:18.325|16354|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:18.863|16354|active|:|2|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:19.391|16332|active|:|0|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:20.437|17552|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:26.717|16354|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, t22 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:27.258|16332|idle in transaction|Client:ClientRead|2|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:43:28.827|16354|active|:|5|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:29.354|16354|idle in transaction|Client:ClientRead|0|{}|BEGIN;
+10:43:33.031|17552|active|:|0|{}|select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+10:43:34.595|16354|idle in transaction|Client:ClientRead|5|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:35.116|16354|idle in transaction|Client:ClientRead|0|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:43:36.698|17552|active|:|0|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:37.244|17896|idle in transaction|Client:ClientRead|27|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:43:37.767|16355|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n17 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:40.385|16354|idle in transaction|Client:ClientRead|1|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:43:40.928|16331|idle in transaction|Client:ClientRead|27|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:41.455|16354|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:42.498|17896|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:43.542|16355|idle in transaction|Client:ClientRead|0|{}|BEGIN;
+10:43:44.068|16355|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:44.590|16354|active|:|0|{}|select "id", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = ANY($3::text[])
+10:43:45.638|16355|idle in transaction|Client:ClientRead|1|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:43:49.301|16355|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:49.820|17550|active|:|3|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:43:50.872|17550|idle in transaction|Client:ClientRead|1|{}|BEGIN;
+10:43:51.919|16354|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:54.015|17550|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:54.539|17552|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:55.067|17896|active|:|1|{}|EXPLAIN (FORMAT JSON) SELECT 1 FROM "webiny_cms_search" WHERE (tok @> $1::text[])
+10:43:56.114|17896|active|:|5|{}|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n3
+10:43:57.179|17896|idle in transaction|Client:ClientRead|3|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:57.179|17897|idle in transaction|Client:ClientRead|8|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:43:57.702|17552|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:43:58.755|16332|active|:|0|{}|select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+10:43:59.809|17552|idle in transaction|:|2|{}|select "entry_id", "version", "is_latest", "is_published", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and ("is
+10:44:00.342|17552|active|:|1|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:44:02.495|16354|idle in transaction|Client:ClientRead|146|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:44:02.495|17552|active|:|6|{}|select "id", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = ANY($3::text[])
+10:44:02.495|17896|idle in transaction|Client:ClientRead|7|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:02.495|18264|active|:|7|{}|select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+10:44:02.495|16332|idle in transaction|Client:ClientRead|27|{}|SELECT index_mode FROM "webiny_cms_scopes" WHERE scope_id = $1
+10:44:03.064|18264|idle in transaction|Client:ClientRead|8|{}|BEGIN;
+10:44:03.064|16332|idle in transaction|Client:ClientRead|52|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:03.602|18265|idle in transaction|Client:ClientRead|10|{}|BEGIN;
+10:44:03.602|17552|idle in transaction|Client:ClientRead|27|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, t22 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:44:03.602|18264|idle in transaction|Client:ClientRead|97|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:44:03.602|18279|idle in transaction|Client:ClientRead|63|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:44:03.602|17897|idle in transaction|Client:ClientRead|10|{}|BEGIN;
+10:44:03.602|18284|idle in transaction|Client:ClientRead|13|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:03.602|18260|idle in transaction|Client:ClientRead|119|{}|SELECT pg_current_xact_id_if_assigned()::text AS xid, pg_backend_pid() AS pid
+10:44:04.130|18279|idle in transaction|Client:ClientRead|17|{}|SELECT index_mode FROM "webiny_cms_scopes" WHERE scope_id = $1
+10:44:04.673|18265|idle in transaction|:|81|{}|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n20", "n21", "n22", "n3", "n8
+10:44:06.792|18265|active|:|8|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:44:07.368|17550|idle in transaction|Client:ClientRead|1|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:07.368|18264|active|:|14|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:44:07.368|18260|active|:|2|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:44:07.959|17550|active|IO:WalSync|205|{}|COMMIT;
+10:44:07.963|16354|idle in transaction|Client:ClientRead|185|{}|insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n3
+10:44:07.963|17552|idle in transaction|Client:ClientRead|99|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE E
+10:44:07.963|18266|idle in transaction|Client:ClientRead|21|{}|BEGIN;
+10:44:08.519|17897|idle in transaction|Client:ClientRead|3|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:08.519|16355|idle in transaction|Client:ClientRead|78|{}|SELECT pg_current_xact_id_if_assigned()::text AS xid, pg_backend_pid() AS pid
+10:44:09.055|16355|idle in transaction|Client:ClientRead|94|{}|SELECT pg_current_xact_id_if_assigned()::text AS xid, pg_backend_pid() AS pid
+10:44:09.625|17550|idle in transaction|Client:ClientRead|13|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, n20 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:44:09.625|18260|idle in transaction|Client:ClientRead|42|{}|delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+10:44:10.160|18285|idle in transaction|Client:ClientRead|6|{}|BEGIN;
+10:44:10.160|18266|idle in transaction|Client:ClientRead|6|{}|BEGIN;
+10:44:10.160|17897|idle in transaction|Client:ClientRead|3|{}|BEGIN;
+10:44:10.160|16355|idle in transaction|Client:ClientRead|54|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:10.160|16331|idle in transaction|Client:ClientRead|53|{}|SET LOCAL enable_seqscan = off; SET LOCAL enable_indexscan = off; SET LOCAL enable_indexonlyscan = off
+10:44:10.160|18260|active|:|69|{}|WITH m AS MATERIALIZED (SELECT entry_id, id, t22 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN TRUE 
+10:44:10.720|18354|active|Timeout:VacuumDelay|46|{}|autovacuum: ANALYZE public.webiny_cms_search
+10:44:11.285|18354|active|Timeout:VacuumDelay|612|{}|autovacuum: ANALYZE public.webiny_cms_search
+10:44:11.830|18354|active|:|1156|{}|autovacuum: ANALYZE public.webiny_cms_search
+10:44:12.370|18354|active|:|1696|{}|autovacuum: ANALYZE public.webiny_cms_search

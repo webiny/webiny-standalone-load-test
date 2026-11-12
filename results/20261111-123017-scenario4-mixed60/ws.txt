@@ -1,0 +1,49 @@
+1000/1000 open; publishing for 230 s
+{
+  "connections": 1000,
+  "openAtEnd": 1000,
+  "closes": {
+    "1012": 500
+  },
+  "openFailuresWhileReconnecting": 0,
+  "reconnects": 500,
+  "reconnectMs": {
+    "p50": 1868,
+    "p95": 2749,
+    "max": 2848
+  },
+  "messages": 197,
+  "createFailures": 0,
+  "createErrors": [],
+  "messagesShort": [
+    "2026-11-11T11:31:18.396Z delivered 500 of 524 open"
+  ],
+  "deliveredOfOpen": "196500 of 196166",
+  "closeTimeline": [
+    [
+      "2026-11-11T11:31:18.334Z",
+      1012
+    ],
+    [
+      "2026-11-11T11:31:18.339Z",
+      1012
+    ],
+    [
+      "2026-11-11T11:31:18.339Z",
+      1012
+    ],
+    "...",
+    [
+      "2026-11-11T11:31:18.405Z",
+      1012
+    ],
+    [
+      "2026-11-11T11:31:18.405Z",
+      1012
+    ],
+    [
+      "2026-11-11T11:31:18.405Z",
+      1012
+    ]
+  ]
+}

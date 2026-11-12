@@ -1,0 +1,60 @@
+opened 5000/5000 in 50.7 s, 0 failed
+holding 70000 ms
+{
+  "connections": 5000,
+  "opened": 5000,
+  "openErrors": 0,
+  "openSeconds": 50.66124780273437,
+  "openMs": {
+    "p50": 90,
+    "p95": 179,
+    "max": 435
+  },
+  "messages": 30,
+  "createFailures": 0,
+  "expectedDeliveries": 150000,
+  "deliveries": 150000,
+  "lost": 0,
+  "latencyMs": {
+    "p50": 176,
+    "p95": 690,
+    "p99": 905,
+    "max": 1163
+  },
+  "stillOpenAtEnd": 5000,
+  "closes": {},
+  "otherMessages": 0,
+  "unmatchedFolderMessages": 0,
+  "reconnects": 0
+}
+per message: delivered / p50 / p95 / max ms
+  6af44dc791f7cb00018058e9 5000 193 259 262 create=200/197ms 
+  6af44dc933ea110001a5d1d4 5000 176 228 232 create=200/178ms 
+  6af44dcb91f7cb00018058ea 5000 119 168 173 create=200/120ms 
+  6af44dce33ea110001a5d1d5 5000 196 280 282 create=200/198ms 
+  6af44dd091f7cb00018058eb 5000 115 158 163 create=200/117ms 
+  6af44dd233ea110001a5d1d6 5000 105 149 151 create=200/111ms 
+  6af44dd491f7cb00018058ec 5000 120 164 167 create=200/128ms 
+  6af44dd633ea110001a5d1d7 5000 139 171 173 create=200/139ms 
+  6af44dd891f7cb00018058ed 5000 126 177 179 create=200/131ms 
+  6af44dda33ea110001a5d1d8 5000 165 196 200 create=200/167ms 
+  6af44ddd91f7cb00018058ee 5000 326 531 580 create=200/330ms 
+  6af44ddf33ea110001a5d1d9 5000 281 354 363 create=200/283ms 
+  6af44de191f7cb00018058ef 5000 219 279 282 create=200/221ms 
+  6af44de333ea110001a5d1da 5000 625 723 727 create=200/629ms 
+  6af44de691f7cb00018058f0 5000 298 357 362 create=200/302ms 
+  6af44de833ea110001a5d1db 5000 319 405 411 create=200/410ms 
+  6af44deb91f7cb00018058f1 5000 179 239 242 create=200/180ms 
+  6af44ded33ea110001a5d1dc 5000 219 296 299 create=200/223ms 
+  6af44def91f7cb00018058f2 5000 220 303 307 create=200/220ms 
+  6af44df233ea110001a5d1dd 5000 849 1146 1163 create=200/1055ms 
+  6af44df591f7cb00018058f3 5000 483 582 585 create=200/485ms 
+  6af44df733ea110001a5d1de 5000 200 246 249 create=200/207ms 
+  6af44df991f7cb00018058f4 5000 141 188 194 create=200/143ms 
+  6af44dfb33ea110001a5d1df 5000 174 231 233 create=200/176ms 
+  6af44dfe91f7cb00018058f5 5000 177 249 253 create=200/179ms 
+  6af44e0033ea110001a5d1e0 5000 204 252 256 create=200/207ms 
+  6af44e0291f7cb00018058f6 5000 259 359 367 create=200/257ms 
+  6af44e0433ea110001a5d1e1 5000 139 201 205 create=200/142ms 
+  6af44e0691f7cb00018058f7 5000 107 159 163 create=200/110ms 
+  6af44e0933ea110001a5d1e2 5000 743 856 860 create=200/743ms 

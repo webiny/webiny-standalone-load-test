@@ -1,0 +1,10 @@
+task 6af4d7db7697450001874e55 claimed by host 28d7fbb2d45c -> stopping api-2
+SIGTERM at 21:02:19.998
+ Container lt-api-2-1  Stopping
+ Container lt-api-2-1  Stopped
+exited at  21:02:26.452
+ Container lt-postgres-1  Waiting
+ Container lt-postgres-1  Healthy
+ Container lt-api-2-1  Starting
+ Container lt-api-2-1  Started
+started at 21:02:27.319

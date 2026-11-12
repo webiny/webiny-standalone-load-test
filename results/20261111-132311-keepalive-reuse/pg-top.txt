@@ -1,0 +1,15 @@
+49 ms total,155,0.32 ms mean,SELECT (v_count + n_count)::int AS total, n_count::int AS nulls FROM (SELECT (SELECT count(*) FROM (SELECT $6 FROM "webiny_cms_search" WHERE scope_id = $1 AND view = $2 AND ix AND n1 IS NOT NULL LIMIT $7) c) AS v_count, (SELECT count(*) FROM (SELECT $8 FROM (SELECT $9 FROM "webiny_cms_search" WHERE 
+30 ms total,36,0.82 ms mean,select * from information_schema.columns where table_name = $1 and column_name = $2 and table_schema = current_schema()
+20 ms total,70,0.29 ms mean,select state, coalesce(wait_event_type, $1), count(*) from pg_stat_activity where datname = $2 and pid <> pg_backend_pid() group by 1, 2
+16 ms total,6,2.63 ms mean,EXPLAIN (FORMAT JSON) SELECT $2 FROM "webiny_cms_search" WHERE (tok && $1::text[])
+14 ms total,167,0.08 ms mean,select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+10 ms total,6,1.63 ms mean,EXPLAIN (FORMAT JSON) SELECT $3 FROM "webiny_cms_search" WHERE scope_id = $1 AND view = $2 AND ix
+9 ms total,155,0.06 ms mean,SELECT entry_id, id, sort_key::text AS sort_value FROM ((SELECT * FROM (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE scope_id = $1 AND view = $2 AND ix AND tok @> $3::text[] OFFSET $6) nulls ORDER BY entry_id DESC LIMIT $7) UNION ALL (SELECT entry_id, id, n1 AS sort_key FROM "w
+7 ms total,143,0.05 ms mean,select "id", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = ANY($3::text[])
+6 ms total,143,0.04 ms mean,select * from "webiny_core_tenants" where "id" in ($1)
+4 ms total,6,0.73 ms mean,EXPLAIN (FORMAT JSON) SELECT $2 FROM "webiny_cms_search" WHERE scope_id = $1 AND ix
+3 ms total,143,0.02 ms mean,select * from "webiny_core_api_keys" where "tenant" = $1 and "token" = $2 limit $3
+2 ms total,48,0.05 ms mean,SELECT index_mode, slot_map FROM "webiny_cms_scopes" WHERE scope_id = $1
+2 ms total,24,0.08 ms mean,select * from "webiny_core_tenants" order by "createdOn" asc
+1 ms total,12,0.09 ms mean,select * from information_schema.tables where table_name = $1 and table_schema = current_schema()
+1 ms total,12,0.05 ms mean,WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN $4 ELSE $5 END AND ix AND (tok && $3::text[]) LIMIT $6) SELECT c.total, p.entry_id, p.id, p.sort_value FROM (SELECT count(*)::int AS total FROM m) c LEFT JOIN (SELECT

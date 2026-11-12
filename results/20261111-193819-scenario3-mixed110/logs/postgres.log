@@ -1,0 +1,2 @@
+postgres-1  | 2026-11-11 19:41:21.608 UTC [42042] LOG:  could not receive data from client: Connection reset by peer
+postgres-1  | 2026-11-11 19:43:05.401 UTC [61] LOG:  checkpoint starting: time

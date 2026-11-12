@@ -1,0 +1,7 @@
+# CPU profile of api-1: docker compose -f compose.yml -f compose.profile.yml up -d api-1
+# The profile is written to results/profiles/ when the process exits (docker compose stop api-1).
+services:
+    api-1:
+        command: ["node", "--cpu-prof", "--cpu-prof-dir=/profiles", "--import", "/monitor/monitor.mjs", "start.mjs"]
+        volumes:
+            - ./results/profiles:/profiles

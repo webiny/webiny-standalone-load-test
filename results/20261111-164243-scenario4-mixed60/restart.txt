@@ -1,0 +1,10 @@
+task 6af48d2e0f7ecb000116b0c4 claimed by host 5ae4c78d5715 -> stopping api-2
+SIGTERM at 15:43:43.3N
+ Container webiny-standalone-load-test-api-2-1  Stopping
+ Container webiny-standalone-load-test-api-2-1  Stopped
+exited at  15:43:49.3N
+ Container webiny-standalone-load-test-postgres-1  Waiting
+ Container webiny-standalone-load-test-postgres-1  Healthy
+ Container webiny-standalone-load-test-api-2-1  Starting
+ Container webiny-standalone-load-test-api-2-1  Started
+started at 15:43:50.3N

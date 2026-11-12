@@ -1,0 +1,901 @@
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-751fa3d6d84da7b6eb1ae074/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-67e468e3ef0f09a61c7adc09/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.888 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.888 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.888 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-34f7a8152c34de7d87774ed4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.888 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c492d2f0aa54eb6a0bcbb02c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4794156d46dd6aca55bbae5d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.889 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.889 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2d826793aa24b974482fddff/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.889 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9d7be5872b599c49cd1ffb9f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.889 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.891 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.891 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c00bc33c9a068226dd6be8fc/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.891 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.892 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.892 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a5ec366a080bb0bfc3861d40/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.892 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.918 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.918 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c21c0089c0474428b8a0d98d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.918 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.920 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.920 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c0ae4031902174a6366a6129/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.920 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2a301c68a09ee854284f6d45/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c6a1bb1ce16916643f575f75/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-77449c97701ab0317ba6c4bd/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.920 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.924 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.924 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-8ea29a44d0a174b12d1f56c6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.924 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.925 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.925 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-cf4cd67d391557dda64ce787/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.925 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-64059393dca4a9add98765b2/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4a6ceea35ff4cdab8f7bd122/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.925 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.926 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.926 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-24a7bc84a5a4532f879505ac/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.926 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.947 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.947 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-824a1d222ce017a08e1cd535/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.947 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.948 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.948 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fb38dd510792b2f0c29a36d8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.948 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.948 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.948 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e82c23120ddcab92bd667145/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.948 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f84b3cb8d34b3cb3717dc9f6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e8f291a6a8817d1638a4bafe/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-89f65ff551886c1d8806d5ce/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.949 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-64dd52d6fc1dba58189b1a23/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.949 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.950 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.950 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-eae80cccfecfee0898e60fc3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.950 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c9fd8eaca1750adf2a88a857/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-186a974e11e8804d64d4c5c5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.952 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-639931ff2533f8bc03b1d517/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4b0797d847be005c286bef82/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9ed908efb857c409785fb818/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-db1bd61b46a07d9f0b3556ae/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d251258267a258ebdaf763eb/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e849327f038bbcf84a671038/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.964 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.971 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.971 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4d42910e021e65d1121d1763/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.971 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.973 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.973 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9a4cb00b4d59ff8a536b0b45/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.973 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.976 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.976 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-30b6aeb6d16c7cdb789e9bef/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.976 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.977 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.977 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-049f895ebc131122f6a384d4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.977 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b1654cead1841421bb45df22/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ac5732ac44b2bf6e3dcab285/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4280b8c7ab0e05eacbbef8d4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-32b2c3518cf60ddd86f36324/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.987 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-62455723639056c44ebb0e87/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.987 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.992 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.992 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9aef935116337c00474021da/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.992 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.994 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.994 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-442719c75b79803e4507a923/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.994 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.994 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.994 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-89e3f357e5e5e659d7a91f3b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.994 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5288c6ae34fe948bee6dd95d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-eeb2bad1f388b49ffdab1a0e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:14.995 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-44e390898fdae5c37b6b4101/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-263c46f3b583171a44c73975/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.001 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.001 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.001 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0261ea50975559af06ef0a3e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.001 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.003 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.003 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c1763e8a28c1df7b05bb996c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.003 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.023 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.023 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7c8a9767d920baa362cf9f3e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.023 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.023 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.023 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-73918c457071f80872172587/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.023 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d701855d18a1d502a5f7dbb7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-16282f4a03fc0d7bd6820a2f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.026 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a91ac36d3964416949303af0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-52414c5272c643d5a0367c3a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.027 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.032 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.032 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fee7a3ae8f587a79717da43a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.032 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.033 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.033 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2e180cb10332a0890ad02de3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.033 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-515d54066b3ef26023efed3f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e72b0b0c5167d1f122e0d060/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.038 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.041 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.041 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c53b4e6df75df8ab62eba42c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.041 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-91cd586272c8205bdf0597c4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-78c12eca27bda34804029159/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.042 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.054 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.054 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-61b446bbd19c0c136e78479f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.054 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.055 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.055 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fed12c5909e4299d68b603d9/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.055 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.056 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.056 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3c65fbaa297c09a72d21a16b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.056 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.069 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.069 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-906fb310a39fb6e840ba6458/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.069 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b2037cfd7f05a0d8211f5f7c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b01715feb7354c7614289d9f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.070 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.072 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.072 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-eb473eb09859a3214459bb57/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.072 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5e8e2d8b960f70dfe5850d5f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5f60ce4ec6889e4940e21a16/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.072 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.073 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.073 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3f97d56806333091d1cfe8d3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.073 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4bb53df89aeab9a59baf49cc/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e58f9f0d016e50b2b2c46c69/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.075 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a739e7be04d65228bd848e3d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-20bdf13f8f5107f4d0ad5491/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.085 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.085 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.085 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-161a15540a3aea7fe18f7ac3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.085 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.087 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.087 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ecca23265e2c541474d1753f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.087 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-95bcab44b5b353e97f1797e9/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c10a04ac0c3692f148a21753/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.087 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1cb308a4a0a3ebe54aeb32c3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-55925ed81d4900378a9a8fd2/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.088 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.098 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.098 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9017c85b2aec45e4c461b051/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.098 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5ccaf5396e6b4a2e9f5633d5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-94e291aa96b61db6ecaa6635/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.106 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1d872086fce8a994210d1cf7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-14cc1bc910b8f7214e9ff765/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.108 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.110 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.110 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-63a80a7be5ff706f9434a0a8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.110 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d26eff956779d3eebe97f411/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-dcfaa954a70873a4dfed5295/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.111 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.117 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.117 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3932c4aa2c9efce6741a6cf9/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.117 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a00589067a5ea3ae8b8fb307/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-768bb500a3afff39a8f9a5d4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.120 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d52a024048d6d3234f1ec3ab/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-83bbf3e4eeaee36211c06142/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.124 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b45ff6550decc3a6ca288368/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-44beed5bbcedf132abc56949/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.125 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.129 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.129 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-266caa98f67d40f310e7ea40/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.129 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.132 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.132 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-44eac0f565e15cbe2ae46707/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.132 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.132 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.132 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-bf0840d3203f44ed43f348a5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.132 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.133 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.133 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1d3f3a25b1003a9e0e79c29d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.133 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ccfaf26e1aa5a23391cc993e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-12ef6970858d5c1a79d2e64a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.136 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1ac8c6fceba426897c6fe6fc/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7e69849579e0459edd67b842/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.142 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.143 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.143 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d7be14ca2aefb3836f311b5f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.143 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.150 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.150 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-76cdb741a2d141c1e4a7e08c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.150 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.150 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.150 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-83f44af0666918218c335634/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.150 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6788435beb2a327b17a50721/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-460e9d4887fdfde5736926b4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.151 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.153 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.153 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-65e6385f30198634b640d02a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.153 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.155 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.155 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6e910d50388635726017d0d4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.155 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.156 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.156 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b7f33752e71d12db7e00c573/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.156 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-062a04a834e9e014aac80937/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b689c39fb100b6d71c689a51/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.159 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-93b7664bc6ccaea763b602a7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-03afc68b58516c9cab8582b7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.169 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.170 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.170 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-79fe7d3475f9166ddfffe6f1/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.170 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-af4b258ad17c801f04e50422/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-dc52442dbfa8b28bdc12db5e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.171 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.176 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.176 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5a7722f0e8f9616ab1048c39/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.176 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b7d6ea78e12ed440dca2a92d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c2013511ba54916d81f6fc3d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.179 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.190 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.190 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fdb448a3e7ba92b4a9b55f81/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.190 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.191 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.191 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f0514350ddaa49958c802a71/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.191 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.193 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.193 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f7188293749386b6228c1920/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.193 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-68818b138057b990b1ae3444/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f0cec2d484607a1299bd0289/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.194 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.195 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.195 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-499321c8041d330b68d3034f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.195 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.198 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.198 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-20553ccf16867a8cba0b9063/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.198 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.202 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.202 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b0184c8d92662a9bb9ebac50/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.202 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.210 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.210 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-04ff268580820be84ab1e0ae/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.210 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-33363ed286ef21ad39911bd4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-189db0eb8d40d6f62d40bff8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.215 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.215 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.215 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-104c1a4ea7eec683ef65b9e4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.215 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-813c21a7276d7d69cf2636a0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3dd6b2e95e059e8b1486734d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.220 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d9c131e7ab0c5c03b2ecd451/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-09b0b4e7cf33ac29416c585b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.221 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.231 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.231 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5adc44e2b47282efdc24770f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.231 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0d3ba776e469d63d2d34b6cd/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ea778541cfa0174ad814e67a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.231 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c5968f242b633d86e591e13a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-202b6fe1a2a802a3576c4118/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.234 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.234 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.234 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6cbb532c6d0f94447e5d2e1d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.234 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.238 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.238 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1fad70b6cf0d34666c6571d8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.238 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.239 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.239 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-80f5fc1cab6800f4489e8d1f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.239 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-650635223a2563c843b5e564/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3e8c23caf6de6a43779b759b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.242 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.244 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.244 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e4eb6320eda4678e3001b9b7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.244 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6489433c2be6420ce24f4dfe/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e9456464954ca8d78c07c60d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.245 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a2fe3a801b585b026d0fe80f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-65e3baab43f8ace48b27458c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.248 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.249 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.249 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-35f425bf35ac98843f94cb7c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.249 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.252 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.252 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c252d7db6d2022a620c2dbd6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.252 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.264 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.264 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3599a1c3f0a9a6e379d36d07/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.264 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.267 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.267 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-443286533d93b1464555780d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.267 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.267 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.267 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e761b539ba1fccdfd66c0e08/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.267 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d9072f917281e855d26831bd/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-baa299840d2d9da8d16ff7ff/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.268 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-906b1b5583c98fb5c570cf8f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3eb14ca75b081151a6450773/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-90af31c1b4fe9d552499e737/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.271 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7aede93297b2c14ed0335689/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.271 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.284 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.284 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d84a587c4263335daa4ce6eb/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.284 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-681e70c6bff5dd880e62eeac/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f524a38698feff3730356d89/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.284 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b5efc833f9d636c550f8f92c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-75f2c7be2379e5ccccd7cf99/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-53feb73b1113eac57c2352ed/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.285 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b4798843994cf32894c8099c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5053e638a19104945b2f4d16/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.289 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.296 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.296 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3eca431aef9e8c427d0dc653/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.296 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.312 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.312 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0d9aef03f02cbc0bdfb7a1c0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.312 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f9cc5dc887aa1254d74d6b8d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2e6c06aff1ca84b96e496635/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.327 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.328 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.328 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c829f8fec222ad46d6b1ec04/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.328 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.330 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.330 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1e90d8f9155f672c530909c3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.330 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.331 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.331 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7f6ace3ab86271fe71c3e258/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.331 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.332 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.332 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f25007d247c1babd5b9feed3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.332 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.351 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.351 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3b0f198677acb5fea06cf4f8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.351 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.352 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.352 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7419a569099b2374ae41985a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.352 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.358 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.358 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-45ec36f1e205a3b962cd05dd/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.358 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.368 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.368 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-05a5563db873263d5b7555c5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.368 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-17dc77389fae314638414e0d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.399 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.399 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-777194dc40aa21d43244be41/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.399 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a40d8a2446a375c0ef964f70/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.399 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.400 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.400 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f09adba2a59802fd95471354/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.400 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.407 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.407 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-8e76dc45d4bac03446046614/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.407 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.414 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.414 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-31ec961f9be208c059a79dfe/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.414 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-eaa9d2ae7d79fff3075e7d88/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fe158df96ffb17751e4a0642/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.414 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.422 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.422 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f1fd05253b2445e43ccad9dc/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.422 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.422 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.422 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4a3b1556c4d8dba1511e2dc7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.422 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.502 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.502 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ba977535e53b379342a71a2d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.502 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.503 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.503 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2fdea18ac05f429c6b8f495b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.503 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.506 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.506 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f35c69f2e7af1ca70d4bda2d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.506 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7588919f67a28a7704283b3b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4ab0eb38b3afb2d67a6db1ce/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.507 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.510 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.510 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-da4864cbe2216bc8911119c9/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.510 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.510 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.510 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c6a5ad9dc4b74f38f95fc96a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.510 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.511 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.511 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-71e9f489df5508721c11f3aa/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.511 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.515 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.515 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a050be6400b82f59600766e7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.515 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.516 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.516 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2f4c1d0d2e34377c94657f26/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.516 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b1b347bdf73edb0935e62bb1/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e1cc583923fc153823ca910d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0761b18aca003854dafe9c47/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5e80666282267ca51d68bb27/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.524 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.526 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.526 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-07c34243bd2d2d9a456e01d3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.526 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.527 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.527 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-20fcd189f5a098eb99b94a11/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.527 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.527 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.527 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ecf50ebd0c775dd80e79a50e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.527 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.528 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.528 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ae7b03cb4e34a10888a1a359/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.528 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.531 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.531 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2f38b834788a2b5b69d7df3f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.531 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5e32768713151a2556d60c49/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0ef9a41d48e9c68b9996c7b6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-06dea4da7c3309afbf493ba8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b33c2985f7d60e4de48420fe/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.541 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.544 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.544 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6cb09cbacd42e8b243bb5fa3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.544 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.544 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.544 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c8407c36db121d655135199d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.544 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.545 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.545 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-54f7f5e8f26462d72b53a455/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.545 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.545 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.545 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-bb202e9cda48d181c00eeb0e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.545 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.552 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.552 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ff087d2348fb5b5b3f16a896/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.552 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.553 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.553 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7e17ed3dfeace4979a8b39f6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.553 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.556 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.556 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6a19324f2a73fe9246654f55/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.556 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a07dd555bdef31a1c9178d9a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1ceda1c8567efabe8bb0c986/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.557 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.558 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.558 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-86289784db65730fda1b5c92/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.558 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.561 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.561 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fe2f5ee862c7f6ed4851492d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.561 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.561 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.561 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7ed1d34ef93de4b1ff129871/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.561 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.577 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.577 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-fe1c2d6dc80bc77afcae8acd/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.577 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.578 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.578 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d12ce86cb8d347614cd42cc7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.578 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ac1f4ace2da52d552317bf45/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-98db19a1a1d69121f8f59eb1/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.578 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.581 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.581 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4ef9d2d8d151887fd7b751c4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.581 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-34ff2023ba76eb0ecf04c433/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-5a6707d791125a9645a0d7ac/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d9c0cd267f13a4cb24cbf88f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.582 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9760440a669f7e6cdead7cd0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9c1a7d88928b9f861d3430a4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b80ac2810467dd664e881b08/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c0a47ca17b49d840023e9214/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d76c40d84a4a2043c9410d67/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c39729c7a82dc4f376f6441f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.603 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.618 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.618 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-9d3758b3cd13878880d56722/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.618 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.621 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.621 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2ec70ed2507ed32eff497472/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.621 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.629 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.629 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b08003f457c543ce907a1bf3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.629 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.632 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.632 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a9dda7f61bcb6bc3a9ae50ca/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.632 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.632 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.632 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-bbc3a701447582adcda6583e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.632 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b3191438ee6a8243be92d848/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-06f74e180c84c391377e0ca5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.633 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.636 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.636 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4582be702af9026d5ae9489d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.636 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-96da6f22dd6a13e7ecb2f492/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.637 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.637 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-aab574b325942a4ab7ffadce/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.637 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-503685488d6cfdd35e2ec6a8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.637 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.640 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.640 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-893b53b29aef57dc55eee0e2/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.640 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.650 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.650 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-af45c21004da5aeffc93addf/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.650 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.653 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.653 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-cedb24e939a6beb6f520beae/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.653 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.653 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.653 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3a3cb6b26dfd7aa7218b06a0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.653 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e38bdd65dd032607c1b9b443/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-3600b8ac557d0b7eb723c6b9/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0f8c9e319a8f4c82a631b5e3/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a7c66760061aac6fa03d698c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f44d1a9cff1de20cc9e0d03d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-602914ed6805c79fcf3e9b3a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.657 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.664 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.664 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b0168a45dc762c0e7db94b3c/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.664 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.685 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.685 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a9a0ba776db6b9b36323858d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.685 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1dbcf598013947679a4659e6/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.690 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.690 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c78ce2fa115dda4a8cd3790f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.690 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-4c83848a1d227ff606be6fb7/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.690 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-79c350304b3416ef639be76a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-aab1238b6eab1e11c1574165/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f22dabb50bf4f5032f827681/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.691 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d2bf113a13864d32d120e45a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.691 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.692 UTC [27872] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.692 UTC [27872] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-811cffff01e3b8ebab4c5952/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.692 UTC [27872] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.716 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.716 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b34ddc5007dccac816dcd845/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.716 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.719 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.719 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-96fda98bf9b3a079f99104d2/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.719 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.719 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.719 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-78b03e40d510d6422dfbbb02/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.719 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-437749af143ac2235f607d8b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-ad29f4097c6e960dac28fba0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-232ba2068dd379646d6a845a/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-d37f43daf024b2192f19783d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.720 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-c8322fdad780a893cce0e95f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.720 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-2caf9f74abc44e981dd6d36d/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-1d71e1a8778bd934b6b9fdb4/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.746 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-93180e9c9e93991d4f763b6b/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27530] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27530] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-b7a46641b2651f48a3eebb73/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27530] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28085] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28085] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0cfa76d106141d8aad68c47f/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28085] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28084] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28084] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6bee73e187abcfb1b3e0d1b0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.754 UTC [28084] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-af39e6ee4a2bf2f130b43ae5/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.754 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27870] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27870] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-e22533d450716da5e4394675/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27870] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27330] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27330] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-a0b2441b314351112534bb96/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.758 UTC [27330] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27234] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27234] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-0df84452b880fa186efeadf0/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27234] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27871] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27871] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-6687b109e3cf64056a005a6e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.785 UTC [27871] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.790 UTC [28096] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.790 UTC [28096] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-f74d14c0367cd81d5b23a07e/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.790 UTC [28096] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:20:15.811 UTC [27361] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 11:20:15.811 UTC [27361] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-55661b651d9b782c4b6790c8/2026-11-11T11:19:58.435Z) already exists.
+postgres-1  | 2026-11-11 11:20:15.811 UTC [27361] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 11:21:42.728 UTC [27] LOG:  checkpoint starting: time

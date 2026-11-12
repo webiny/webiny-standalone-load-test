@@ -1,0 +1,5 @@
+postgres-1  | 2026-11-11 09:51:24.117 UTC [27] LOG:  checkpoint complete: wrote 7633 buffers (46.6%); 0 WAL file(s) added, 0 removed, 33 recycled; write=269.347 s, sync=0.008 s, total=269.432 s; sync files=99, longest=0.001 s, average=0.001 s; distance=529322 kB, estimate=529322 kB; lsn=0/246EC798, redo lsn=0/22024BA8
+postgres-1  | 2026-11-11 09:54:14.407 UTC [2114] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 09:54:14.407 UTC [2114] DETAIL:  Key ("scopedKey")=(scheduler/claims:root/wby-schedule-7961ba32649a931e01736f3a/2026-11-11T09:54:14.315Z) already exists.
+postgres-1  | 2026-11-11 09:54:14.407 UTC [2114] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 09:56:54.155 UTC [27] LOG:  checkpoint starting: time

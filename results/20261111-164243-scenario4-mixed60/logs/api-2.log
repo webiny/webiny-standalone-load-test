@@ -1,0 +1,66 @@
+api-2-1  | LTMON {"t":"2026-11-11T15:42:45.585Z","proc":"api-2","rssMb":370,"heapUsedMb":45,"heapTotalMb":87,"externalMb":15,"eldP50Ms":1.1,"eldP99Ms":15.2,"eldMaxMs":28.4,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:42:50.589Z","proc":"api-2","rssMb":369,"heapUsedMb":58,"heapTotalMb":87,"externalMb":17,"eldP50Ms":1,"eldP99Ms":10.5,"eldMaxMs":21.8,"handles":102}
+api-2-1  | LTMON {"t":"2026-11-11T15:42:55.588Z","proc":"api-2","rssMb":371,"heapUsedMb":58,"heapTotalMb":88,"externalMb":19,"eldP50Ms":1,"eldP99Ms":10.1,"eldMaxMs":20.5,"handles":225}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:00.598Z","proc":"api-2","rssMb":374,"heapUsedMb":45,"heapTotalMb":88,"externalMb":25,"eldP50Ms":0.9,"eldP99Ms":10.1,"eldMaxMs":11.3,"handles":360}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:05.599Z","proc":"api-2","rssMb":374,"heapUsedMb":58,"heapTotalMb":89,"externalMb":15,"eldP50Ms":0.8,"eldP99Ms":7.5,"eldMaxMs":14.1,"handles":479}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:10.599Z","proc":"api-2","rssMb":375,"heapUsedMb":53,"heapTotalMb":89,"externalMb":17,"eldP50Ms":0.8,"eldP99Ms":10,"eldMaxMs":31.8,"handles":522}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:15.599Z","proc":"api-2","rssMb":376,"heapUsedMb":60,"heapTotalMb":90,"externalMb":26,"eldP50Ms":0.8,"eldP99Ms":8.2,"eldMaxMs":40.8,"handles":521}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:20.601Z","proc":"api-2","rssMb":376,"heapUsedMb":58,"heapTotalMb":89,"externalMb":18,"eldP50Ms":0.8,"eldP99Ms":8.4,"eldMaxMs":16.5,"handles":520}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:25.602Z","proc":"api-2","rssMb":377,"heapUsedMb":55,"heapTotalMb":89,"externalMb":16,"eldP50Ms":0.8,"eldP99Ms":6.4,"eldMaxMs":17.1,"handles":521}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:30.604Z","proc":"api-2","rssMb":377,"heapUsedMb":49,"heapTotalMb":90,"externalMb":17,"eldP50Ms":0.7,"eldP99Ms":9.9,"eldMaxMs":17.4,"handles":520}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:35.605Z","proc":"api-2","rssMb":377,"heapUsedMb":49,"heapTotalMb":91,"externalMb":15,"eldP50Ms":0.8,"eldP99Ms":12.1,"eldMaxMs":23.2,"handles":522}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:40.604Z","proc":"api-2","rssMb":379,"heapUsedMb":55,"heapTotalMb":90,"externalMb":25,"eldP50Ms":0.7,"eldP99Ms":6.5,"eldMaxMs":10.1,"handles":516}
+api-2-1  | [server] SIGTERM received, shutting down
+api-2-1  | LTMON {"t":"2026-11-11T15:43:45.606Z","proc":"api-2","rssMb":379,"heapUsedMb":65,"heapTotalMb":100,"externalMb":16,"eldP50Ms":0.9,"eldP99Ms":11,"eldMaxMs":33,"handles":517}
+api-2-1  | {"level":30,"time":1794411832173,"pid":1,"hostname":"5ae4c78d5715","messageBus":"redis","msg":"[websockets] using message bus"}
+api-2-1  | listening on http://localhost:3000
+api-2-1  | {"level":30,"time":1794411832379,"pid":1,"hostname":"5ae4c78d5715","recovered":0,"msg":"[scheduler] boot recovery re-armed pending actions"}
+api-2-1  | LTMON {"t":"2026-11-11T15:43:55.617Z","proc":"api-2","rssMb":184,"heapUsedMb":50,"heapTotalMb":83,"externalMb":25,"eldP50Ms":1,"eldP99Ms":23.8,"eldMaxMs":40.7,"handles":17}
+api-2-1  | {"level":30,"time":1794411837261,"pid":1,"hostname":"5ae4c78d5715","resumed":1,"failed":0,"msg":"Recovered background tasks that no process held."}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:00.618Z","proc":"api-2","rssMb":184,"heapUsedMb":60,"heapTotalMb":85,"externalMb":21,"eldP50Ms":0.7,"eldP99Ms":6.5,"eldMaxMs":20.6,"handles":16}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:05.621Z","proc":"api-2","rssMb":200,"heapUsedMb":58,"heapTotalMb":85,"externalMb":24,"eldP50Ms":0.8,"eldP99Ms":5.8,"eldMaxMs":18.8,"handles":16}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:10.621Z","proc":"api-2","rssMb":201,"heapUsedMb":53,"heapTotalMb":86,"externalMb":21,"eldP50Ms":0.8,"eldP99Ms":6.7,"eldMaxMs":16.8,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:15.629Z","proc":"api-2","rssMb":303,"heapUsedMb":54,"heapTotalMb":90,"externalMb":27,"eldP50Ms":0.7,"eldP99Ms":7.5,"eldMaxMs":37.7,"handles":18}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:20.631Z","proc":"api-2","rssMb":300,"heapUsedMb":59,"heapTotalMb":86,"externalMb":21,"eldP50Ms":0.8,"eldP99Ms":6.6,"eldMaxMs":10,"handles":16}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:25.631Z","proc":"api-2","rssMb":300,"heapUsedMb":52,"heapTotalMb":86,"externalMb":19,"eldP50Ms":0.8,"eldP99Ms":8.4,"eldMaxMs":14.8,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:30.631Z","proc":"api-2","rssMb":300,"heapUsedMb":55,"heapTotalMb":88,"externalMb":21,"eldP50Ms":0.8,"eldP99Ms":7.2,"eldMaxMs":75.5,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:35.631Z","proc":"api-2","rssMb":300,"heapUsedMb":50,"heapTotalMb":88,"externalMb":22,"eldP50Ms":0.7,"eldP99Ms":4.7,"eldMaxMs":61.8,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:40.631Z","proc":"api-2","rssMb":300,"heapUsedMb":53,"heapTotalMb":87,"externalMb":16,"eldP50Ms":0.8,"eldP99Ms":6.3,"eldMaxMs":15.1,"handles":19}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:45.631Z","proc":"api-2","rssMb":301,"heapUsedMb":53,"heapTotalMb":88,"externalMb":24,"eldP50Ms":0.7,"eldP99Ms":6.7,"eldMaxMs":11.5,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:50.633Z","proc":"api-2","rssMb":301,"heapUsedMb":60,"heapTotalMb":87,"externalMb":22,"eldP50Ms":0.7,"eldP99Ms":6.4,"eldMaxMs":17.5,"handles":17}
+api-2-1  | {"level":30,"time":1794411892435,"pid":1,"hostname":"5ae4c78d5715","resumed":10,"failed":0,"msg":"Recovered background tasks that no process held."}
+api-2-1  | LTMON {"t":"2026-11-11T15:44:55.632Z","proc":"api-2","rssMb":307,"heapUsedMb":55,"heapTotalMb":96,"externalMb":16,"eldP50Ms":0.5,"eldP99Ms":26.5,"eldMaxMs":31.1,"handles":28}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:00.642Z","proc":"api-2","rssMb":311,"heapUsedMb":62,"heapTotalMb":98,"externalMb":16,"eldP50Ms":0.2,"eldP99Ms":25.1,"eldMaxMs":41,"handles":28}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:05.642Z","proc":"api-2","rssMb":311,"heapUsedMb":61,"heapTotalMb":89,"externalMb":22,"eldP50Ms":0.5,"eldP99Ms":12.9,"eldMaxMs":36.5,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:10.643Z","proc":"api-2","rssMb":311,"heapUsedMb":55,"heapTotalMb":91,"externalMb":26,"eldP50Ms":0.8,"eldP99Ms":26,"eldMaxMs":39.9,"handles":30}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:15.644Z","proc":"api-2","rssMb":311,"heapUsedMb":51,"heapTotalMb":90,"externalMb":23,"eldP50Ms":0.9,"eldP99Ms":4.8,"eldMaxMs":11.4,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:20.645Z","proc":"api-2","rssMb":310,"heapUsedMb":57,"heapTotalMb":89,"externalMb":23,"eldP50Ms":0.8,"eldP99Ms":10.5,"eldMaxMs":40.2,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:25.647Z","proc":"api-2","rssMb":310,"heapUsedMb":59,"heapTotalMb":93,"externalMb":29,"eldP50Ms":0.8,"eldP99Ms":17,"eldMaxMs":38.4,"handles":26}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:30.647Z","proc":"api-2","rssMb":310,"heapUsedMb":59,"heapTotalMb":89,"externalMb":18,"eldP50Ms":1,"eldP99Ms":22,"eldMaxMs":49.9,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:35.647Z","proc":"api-2","rssMb":311,"heapUsedMb":48,"heapTotalMb":90,"externalMb":15,"eldP50Ms":0.6,"eldP99Ms":4.3,"eldMaxMs":21.8,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:40.648Z","proc":"api-2","rssMb":311,"heapUsedMb":53,"heapTotalMb":91,"externalMb":22,"eldP50Ms":0.6,"eldP99Ms":7.2,"eldMaxMs":46.6,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:45.648Z","proc":"api-2","rssMb":311,"heapUsedMb":49,"heapTotalMb":90,"externalMb":18,"eldP50Ms":0.7,"eldP99Ms":8.6,"eldMaxMs":19.5,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:50.649Z","proc":"api-2","rssMb":311,"heapUsedMb":56,"heapTotalMb":88,"externalMb":21,"eldP50Ms":0.7,"eldP99Ms":6.5,"eldMaxMs":27.7,"handles":20}
+api-2-1  | LTMON {"t":"2026-11-11T15:45:55.650Z","proc":"api-2","rssMb":311,"heapUsedMb":53,"heapTotalMb":91,"externalMb":24,"eldP50Ms":0.7,"eldP99Ms":7.7,"eldMaxMs":21.7,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:00.650Z","proc":"api-2","rssMb":311,"heapUsedMb":62,"heapTotalMb":97,"externalMb":25,"eldP50Ms":0.4,"eldP99Ms":11.6,"eldMaxMs":30.9,"handles":24}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:05.651Z","proc":"api-2","rssMb":312,"heapUsedMb":58,"heapTotalMb":100,"externalMb":15,"eldP50Ms":0.4,"eldP99Ms":22.9,"eldMaxMs":37,"handles":29}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:10.655Z","proc":"api-2","rssMb":312,"heapUsedMb":58,"heapTotalMb":93,"externalMb":25,"eldP50Ms":0.5,"eldP99Ms":19.7,"eldMaxMs":33.2,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:15.654Z","proc":"api-2","rssMb":312,"heapUsedMb":49,"heapTotalMb":92,"externalMb":19,"eldP50Ms":0.8,"eldP99Ms":6.2,"eldMaxMs":26.1,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:20.656Z","proc":"api-2","rssMb":312,"heapUsedMb":54,"heapTotalMb":92,"externalMb":18,"eldP50Ms":0.7,"eldP99Ms":7.6,"eldMaxMs":11.4,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:25.656Z","proc":"api-2","rssMb":312,"heapUsedMb":56,"heapTotalMb":91,"externalMb":18,"eldP50Ms":0.8,"eldP99Ms":4,"eldMaxMs":10,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:30.656Z","proc":"api-2","rssMb":312,"heapUsedMb":56,"heapTotalMb":90,"externalMb":19,"eldP50Ms":0.8,"eldP99Ms":7.2,"eldMaxMs":22.8,"handles":21}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:35.659Z","proc":"api-2","rssMb":312,"heapUsedMb":59,"heapTotalMb":92,"externalMb":21,"eldP50Ms":0.8,"eldP99Ms":8,"eldMaxMs":43.5,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:40.658Z","proc":"api-2","rssMb":312,"heapUsedMb":61,"heapTotalMb":92,"externalMb":25,"eldP50Ms":0.7,"eldP99Ms":8.4,"eldMaxMs":9.5,"handles":16}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:45.658Z","proc":"api-2","rssMb":312,"heapUsedMb":53,"heapTotalMb":93,"externalMb":23,"eldP50Ms":0.7,"eldP99Ms":9.8,"eldMaxMs":46.3,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:50.666Z","proc":"api-2","rssMb":312,"heapUsedMb":53,"heapTotalMb":92,"externalMb":19,"eldP50Ms":0.7,"eldP99Ms":8.3,"eldMaxMs":15.2,"handles":17}
+api-2-1  | LTMON {"t":"2026-11-11T15:46:55.666Z","proc":"api-2","rssMb":313,"heapUsedMb":50,"heapTotalMb":92,"externalMb":20,"eldP50Ms":0.7,"eldP99Ms":24.5,"eldMaxMs":104.3,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:00.666Z","proc":"api-2","rssMb":313,"heapUsedMb":48,"heapTotalMb":92,"externalMb":17,"eldP50Ms":0.7,"eldP99Ms":6,"eldMaxMs":19.1,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:05.667Z","proc":"api-2","rssMb":313,"heapUsedMb":50,"heapTotalMb":93,"externalMb":15,"eldP50Ms":0.8,"eldP99Ms":10,"eldMaxMs":41.3,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:10.666Z","proc":"api-2","rssMb":313,"heapUsedMb":54,"heapTotalMb":92,"externalMb":27,"eldP50Ms":0.7,"eldP99Ms":9.8,"eldMaxMs":22.5,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:15.667Z","proc":"api-2","rssMb":313,"heapUsedMb":62,"heapTotalMb":94,"externalMb":19,"eldP50Ms":0.9,"eldP99Ms":20.4,"eldMaxMs":78.5,"handles":26}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:20.671Z","proc":"api-2","rssMb":313,"heapUsedMb":54,"heapTotalMb":91,"externalMb":24,"eldP50Ms":1,"eldP99Ms":7,"eldMaxMs":16.1,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:25.672Z","proc":"api-2","rssMb":313,"heapUsedMb":63,"heapTotalMb":94,"externalMb":22,"eldP50Ms":0.8,"eldP99Ms":5.2,"eldMaxMs":14.6,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:30.673Z","proc":"api-2","rssMb":313,"heapUsedMb":53,"heapTotalMb":93,"externalMb":22,"eldP50Ms":0.8,"eldP99Ms":7.6,"eldMaxMs":42.2,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:35.672Z","proc":"api-2","rssMb":314,"heapUsedMb":57,"heapTotalMb":93,"externalMb":19,"eldP50Ms":0.7,"eldP99Ms":4.9,"eldMaxMs":11,"handles":23}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:40.673Z","proc":"api-2","rssMb":314,"heapUsedMb":61,"heapTotalMb":92,"externalMb":24,"eldP50Ms":0.8,"eldP99Ms":6.4,"eldMaxMs":18.6,"handles":22}
+api-2-1  | LTMON {"t":"2026-11-11T15:47:45.674Z","proc":"api-2","rssMb":315,"heapUsedMb":52,"heapTotalMb":93,"externalMb":23,"eldP50Ms":0.9,"eldP99Ms":3.8,"eldMaxMs":12.4,"handles":20}

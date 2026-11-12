@@ -1,0 +1,446 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: /scripts/ramp.js
+        output: json (/results/20261111-172608-read-ramp-repeat/k6.json.gz)
+
+     scenarios: (100.00%) 1 scenario, 800 max VUs, 40m30s max duration (incl. graceful stop):
+              * ramp: Up to 800.00 iterations/s for 40m0s over 80 stages (maxVUs: 50-800, gracefulStop: 30s)
+
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+running (00m04.0s), 001/050 VUs, 13 complete and 0 interrupted iterations
+ramp   [   0% ] 001/050 VUs  00m00.7s/40m0s  020.00 iters/s
+
+running (00m05.0s), 000/050 VUs, 34 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m01.7s/40m0s  020.00 iters/s
+
+running (00m06.0s), 001/050 VUs, 53 complete and 0 interrupted iterations
+ramp   [   0% ] 001/050 VUs  00m02.7s/40m0s  020.00 iters/s
+
+running (00m07.0s), 001/050 VUs, 73 complete and 0 interrupted iterations
+ramp   [   0% ] 001/050 VUs  00m03.7s/40m0s  020.00 iters/s
+
+running (00m08.0s), 000/050 VUs, 94 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m04.7s/40m0s  020.00 iters/s
+
+running (00m09.0s), 000/050 VUs, 114 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m05.7s/40m0s  020.00 iters/s
+
+running (00m10.0s), 000/050 VUs, 134 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m06.7s/40m0s  020.00 iters/s
+
+running (00m11.0s), 001/050 VUs, 153 complete and 0 interrupted iterations
+ramp   [   0% ] 001/050 VUs  00m07.7s/40m0s  020.00 iters/s
+
+running (00m12.0s), 000/050 VUs, 174 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m08.7s/40m0s  020.00 iters/s
+
+running (00m13.0s), 001/050 VUs, 193 complete and 0 interrupted iterations
+ramp   [   0% ] 001/050 VUs  00m09.7s/40m0s  020.00 iters/s
+
+running (00m14.0s), 000/050 VUs, 214 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m10.7s/40m0s  020.00 iters/s
+
+running (00m15.0s), 000/050 VUs, 234 complete and 0 interrupted iterations
+ramp   [   0% ] 000/050 VUs  00m11.7s/40m0s  020.00 iters/s
+
+running (00m16.0s), 001/050 VUs, 253 complete and 0 interrupted iterations
+ramp   [   1% ] 001/050 VUs  00m12.7s/40m0s  020.00 iters/s
+
+running (00m17.0s), 000/050 VUs, 274 complete and 0 interrupted iterations
+ramp   [   1% ] 000/050 VUs  00m13.7s/40m0s  020.00 iters/s
+
+running (00m18.0s), 001/050 VUs, 293 complete and 0 interrupted iterations
+ramp   [   1% ] 001/050 VUs  00m14.7s/40m0s  020.00 iters/s
+
+running (00m19.0s), 000/050 VUs, 314 complete and 0 interrupted iterations
+ramp   [   1% ] 000/050 VUs  00m15.7s/40m0s  020.00 iters/s
+
+running (00m20.0s), 000/050 VUs, 334 complete and 0 interrupted iterations
+ramp   [   1% ] 000/050 VUs  00m16.7s/40m0s  020.00 iters/s
+
+running (00m21.0s), 000/050 VUs, 354 complete and 0 interrupted iterations
+ramp   [   1% ] 000/050 VUs  00m17.7s/40m0s  020.00 iters/s
+
+running (00m22.0s), 001/050 VUs, 373 complete and 0 interrupted iterations
+ramp   [   1% ] 001/050 VUs  00m18.7s/40m0s  020.00 iters/s
+
+running (00m23.0s), 001/050 VUs, 393 complete and 0 interrupted iterations
+ramp   [   1% ] 001/050 VUs  00m19.7s/40m0s  020.00 iters/s
+
+running (00m24.0s), 002/050 VUs, 412 complete and 0 interrupted iterations
+ramp   [   1% ] 002/050 VUs  00m20.7s/40m0s  020.00 iters/s
+
+running (00m25.0s), 001/050 VUs, 433 complete and 0 interrupted iterations
+ramp   [   1% ] 001/050 VUs  00m21.7s/40m0s  020.00 iters/s
+
+
+  █ THRESHOLDS 
+
+    failed
+    ✓ 'rate<0.5' rate=0.00%
+
+      {settled:1}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:10}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:11}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:12}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:13}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:14}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:15}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:16}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:17}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:18}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:19}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:2}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:20}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:21}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:22}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:23}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:24}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:25}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:26}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:27}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:28}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:29}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:3}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:30}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:31}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:32}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:33}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:34}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:35}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:36}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:37}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:38}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:39}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:4}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:40}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:5}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:6}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:7}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:8}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:9}
+      ✓ 'rate<0.01' rate=0.00%
+
+    http_req_duration{settled:1}
+    ✓ 'p(95)<1000' p(95)=59.39ms
+
+    http_req_duration{settled:10}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:11}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:12}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:13}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:14}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:15}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:16}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:17}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:18}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:19}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:2}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:20}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:21}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:22}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:23}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:24}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:25}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:26}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:27}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:28}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:29}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:3}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:30}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:31}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:32}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:33}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:34}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:35}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:36}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:37}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:38}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:39}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:4}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:40}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:5}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:6}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:7}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:8}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:9}
+    ✓ 'p(95)<1000' p(95)=0s
+
+
+  █ TOTAL RESULTS 
+
+    CUSTOM
+    failed.........................: 0.00%  0 out of 445
+      { settled:1 }................: 0.00%  0 out of 146
+      { settled:10 }...............: 0.00%  0 out of 0
+      { settled:11 }...............: 0.00%  0 out of 0
+      { settled:12 }...............: 0.00%  0 out of 0
+      { settled:13 }...............: 0.00%  0 out of 0
+      { settled:14 }...............: 0.00%  0 out of 0
+      { settled:15 }...............: 0.00%  0 out of 0
+      { settled:16 }...............: 0.00%  0 out of 0
+      { settled:17 }...............: 0.00%  0 out of 0
+      { settled:18 }...............: 0.00%  0 out of 0
+      { settled:19 }...............: 0.00%  0 out of 0
+      { settled:2 }................: 0.00%  0 out of 0
+      { settled:20 }...............: 0.00%  0 out of 0
+      { settled:21 }...............: 0.00%  0 out of 0
+      { settled:22 }...............: 0.00%  0 out of 0
+      { settled:23 }...............: 0.00%  0 out of 0
+      { settled:24 }...............: 0.00%  0 out of 0
+      { settled:25 }...............: 0.00%  0 out of 0
+      { settled:26 }...............: 0.00%  0 out of 0
+      { settled:27 }...............: 0.00%  0 out of 0
+      { settled:28 }...............: 0.00%  0 out of 0
+      { settled:29 }...............: 0.00%  0 out of 0
+      { settled:3 }................: 0.00%  0 out of 0
+      { settled:30 }...............: 0.00%  0 out of 0
+      { settled:31 }...............: 0.00%  0 out of 0
+      { settled:32 }...............: 0.00%  0 out of 0
+      { settled:33 }...............: 0.00%  0 out of 0
+      { settled:34 }...............: 0.00%  0 out of 0
+      { settled:35 }...............: 0.00%  0 out of 0
+      { settled:36 }...............: 0.00%  0 out of 0
+      { settled:37 }...............: 0.00%  0 out of 0
+      { settled:38 }...............: 0.00%  0 out of 0
+      { settled:39 }...............: 0.00%  0 out of 0
+      { settled:4 }................: 0.00%  0 out of 0
+      { settled:40 }...............: 0.00%  0 out of 0
+      { settled:5 }................: 0.00%  0 out of 0
+      { settled:6 }................: 0.00%  0 out of 0
+      { settled:7 }................: 0.00%  0 out of 0
+      { settled:8 }................: 0.00%  0 out of 0
+      { settled:9 }................: 0.00%  0 out of 0
+
+    HTTP
+    http_req_duration..............: avg=19.64ms min=8.64ms med=18.69ms p(90)=28.22ms p(95)=34.51ms p(99)=61.53ms  max=197.32ms
+      { expected_response:true }...: avg=19.64ms min=8.64ms med=18.69ms p(90)=28.22ms p(95)=34.51ms p(99)=61.53ms  max=197.32ms
+      { settled:1 }................: avg=23.82ms min=8.64ms med=18.16ms p(90)=39.91ms p(95)=59.39ms p(99)=142.65ms max=197.32ms
+      { settled:10 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:11 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:12 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:13 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:14 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:15 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:16 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:17 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:18 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:19 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:2 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:20 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:21 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:22 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:23 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:24 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:25 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:26 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:27 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:28 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:29 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:3 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:30 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:31 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:32 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:33 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:34 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:35 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:36 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:37 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:38 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:39 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:4 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:40 }...............: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:5 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:6 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:7 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:8 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+      { settled:9 }................: avg=0s      min=0s     med=0s      p(90)=0s      p(95)=0s      p(99)=0s       max=0s      
+    http_req_failed................: 0.00%  0 out of 595
+    http_reqs......................: 595    23.2965/s
+
+    EXECUTION
+    iteration_duration.............: avg=19.49ms min=8.89ms med=18.46ms p(90)=27.94ms p(95)=37.11ms p(99)=82.97ms  max=197.79ms
+    iterations.....................: 445    17.423433/s
+    vus............................: 1      min=0        max=2 
+    vus_max........................: 50     min=50       max=50
+
+    NETWORK
+    data_received..................: 3.1 MB 122 kB/s
+    data_sent......................: 362 kB 14 kB/s
+
+
+
+
+running (00m25.6s), 000/050 VUs, 445 complete and 0 interrupted iterations
+ramp ✗ [   1% ] 000/050 VUs  00m22.3s/40m0s  020.00 iters/s
+time="2026-11-11T16:26:35Z" level=error msg="test run was aborted because k6 received a 'terminated' signal"
+

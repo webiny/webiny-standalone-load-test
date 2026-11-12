@@ -1,0 +1,1518 @@
+{
+  "connections": 1000,
+  "openAtEnd": 1000,
+  "closes": {
+    "1012": 499
+  },
+  "openFailuresWhileReconnecting": 0,
+  "reconnects": 499,
+  "reconnectMs": {
+    "p50": 1466,
+    "p95": 2072,
+    "max": 2178
+  },
+  "messages": 210,
+  "createFailures": 0,
+  "createErrors": [],
+  "messagesShort": [],
+  "deliveredOfOpen": "210000 of 209511",
+  "closeTimeline": [
+    [
+      "2026-11-11T15:43:43.566Z",
+      1012
+    ],
+    [
+      "2026-11-11T15:43:43.568Z",
+      1012
+    ],
+    [
+      "2026-11-11T15:43:43.568Z",
+      1012
+    ],
+    "...",
+    [
+      "2026-11-11T15:43:43.588Z",
+      1012
+    ],
+    [
+      "2026-11-11T15:43:43.588Z",
+      1012
+    ],
+    [
+      "2026-11-11T15:43:43.588Z",
+      1012
+    ]
+  ],
+  "perMessage": [
+    {
+      "sentAt": "2026-11-11T15:43:18.513Z",
+      "id": "6af48d16ae322a00013ca16f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:19.593Z",
+      "id": "6af48d17ae322a00013ca172",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:20.644Z",
+      "id": "6af48d18ae322a00013ca174",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:21.731Z",
+      "id": "6af48d19ae322a00013ca176",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:22.780Z",
+      "id": "6af48d1aae322a00013ca178",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:23.828Z",
+      "id": "6af48d1bae322a00013ca17a",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:24.891Z",
+      "id": "6af48d1cae322a00013ca17c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:25.954Z",
+      "id": "6af48d1d0f7ecb000116b09a",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:27.036Z",
+      "id": "6af48d1f0f7ecb000116b09c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:28.092Z",
+      "id": "6af48d200f7ecb000116b09e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:29.157Z",
+      "id": "6af48d21ae322a00013ca186",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:30.246Z",
+      "id": "6af48d220f7ecb000116b0a4",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:31.293Z",
+      "id": "6af48d230f7ecb000116b0aa",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:32.419Z",
+      "id": "6af48d240f7ecb000116b0ad",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:33.485Z",
+      "id": "6af48d25ae322a00013ca18d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:34.542Z",
+      "id": "6af48d260f7ecb000116b0b1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:35.596Z",
+      "id": "6af48d270f7ecb000116b0b4",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:36.647Z",
+      "id": "6af48d280f7ecb000116b0b7",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:37.704Z",
+      "id": "6af48d290f7ecb000116b0ba",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:38.799Z",
+      "id": "6af48d2aae322a00013ca195",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:39.859Z",
+      "id": "6af48d2b0f7ecb000116b0be",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:40.906Z",
+      "id": "6af48d2cae322a00013ca19b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:41.955Z",
+      "id": "6af48d2dae322a00013ca19c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:43.017Z",
+      "id": "6af48d2fae322a00013ca19f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:44.139Z",
+      "id": "6af48d31ae322a00013ca385",
+      "error": null,
+      "openAtSend": 511,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:50.303Z",
+      "id": "6af48d36ae322a00013ca3ad",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:51.506Z",
+      "id": "6af48d37ae322a00013ca3b8",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:52.594Z",
+      "id": "6af48d38ae322a00013ca3ba",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:53.642Z",
+      "id": "6af48d39ae322a00013ca3bd",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:54.707Z",
+      "id": "6af48d3a2a3fe50001ebfe9d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:55.892Z",
+      "id": "6af48d3b2a3fe50001ebfea1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:56.946Z",
+      "id": "6af48d3c2a3fe50001ebfea2",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:58.078Z",
+      "id": "6af48d3eae322a00013ca3c5",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:43:59.125Z",
+      "id": "6af48d3fae322a00013ca3c8",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:00.166Z",
+      "id": "6af48d402a3fe50001ebfead",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:01.255Z",
+      "id": "6af48d41ae322a00013ca3cc",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:02.301Z",
+      "id": "6af48d42ae322a00013ca3ce",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:03.429Z",
+      "id": "6af48d432a3fe50001ebfeb9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:04.482Z",
+      "id": "6af48d442a3fe50001ebfebc",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:05.524Z",
+      "id": "6af48d45ae322a00013ca3d6",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:06.602Z",
+      "id": "6af48d462a3fe50001ebfec0",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:07.654Z",
+      "id": "6af48d472a3fe50001ebfec2",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:08.741Z",
+      "id": "6af48d482a3fe50001ebfec7",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:09.787Z",
+      "id": "6af48d492a3fe50001ebfec9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:10.837Z",
+      "id": "6af48d4aae322a00013ca3e5",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:11.927Z",
+      "id": "6af48d4b2a3fe50001ebfecb",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:12.979Z",
+      "id": "6af48d4c2a3fe50001ebfecf",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:14.026Z",
+      "id": "6af48d4eae322a00013ca3ea",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:15.076Z",
+      "id": "6af48d4fae322a00013ca3ec",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:16.133Z",
+      "id": "6af48d50ae322a00013ca3ed",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:17.186Z",
+      "id": "6af48d51ae322a00013ca3f1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:18.227Z",
+      "id": "6af48d52ae322a00013ca3f2",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:19.270Z",
+      "id": "6af48d532a3fe50001ebfedb",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:20.320Z",
+      "id": "6af48d542a3fe50001ebfedf",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:21.374Z",
+      "id": "6af48d55ae322a00013ca3fc",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:22.451Z",
+      "id": "6af48d56ae322a00013ca3ff",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:23.499Z",
+      "id": "6af48d57ae322a00013ca404",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:24.542Z",
+      "id": "6af48d582a3fe50001ebfee8",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:25.613Z",
+      "id": "6af48d592a3fe50001ebfeed",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:26.668Z",
+      "id": "6af48d5aae322a00013ca40b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:27.728Z",
+      "id": "6af48d5b2a3fe50001ebfef5",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:28.780Z",
+      "id": "6af48d5c2a3fe50001ebfef6",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:29.836Z",
+      "id": "6af48d5d2a3fe50001ebfef9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:31.044Z",
+      "id": "6af48d5fae322a00013ca414",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:32.090Z",
+      "id": "6af48d602a3fe50001ebfefc",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:33.154Z",
+      "id": "6af48d61ae322a00013ca417",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:34.207Z",
+      "id": "6af48d62ae322a00013ca41c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:35.251Z",
+      "id": "6af48d63ae322a00013ca41f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:36.329Z",
+      "id": "6af48d642a3fe50001ebff03",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:37.371Z",
+      "id": "6af48d65ae322a00013ca423",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:38.417Z",
+      "id": "6af48d66ae322a00013ca427",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:39.481Z",
+      "id": "6af48d672a3fe50001ebff0b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:40.598Z",
+      "id": "6af48d682a3fe50001ebff0c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:41.792Z",
+      "id": "6af48d69ae322a00013ca42f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:42.840Z",
+      "id": "6af48d6aae322a00013ca433",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:43.891Z",
+      "id": "6af48d6bae322a00013ca437",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:44.938Z",
+      "id": "6af48d6cae322a00013ca439",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:45.996Z",
+      "id": "6af48d6e2a3fe50001ebff12",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:47.060Z",
+      "id": "6af48d6fae322a00013ca43c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:48.109Z",
+      "id": "6af48d70ae322a00013ca43f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:49.186Z",
+      "id": "6af48d71ae322a00013ca441",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:50.235Z",
+      "id": "6af48d72ae322a00013ca444",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:51.285Z",
+      "id": "6af48d732a3fe50001ebff1c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:52.356Z",
+      "id": "6af48d74ae322a00013ca44b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:53.411Z",
+      "id": "6af48d752a3fe50001ebff1e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:54.583Z",
+      "id": "6af48d76ae322a00013ca451",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:55.627Z",
+      "id": "6af48d772a3fe50001ebff22",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:56.717Z",
+      "id": "6af48d782a3fe50001ebff26",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:57.827Z",
+      "id": "6af48d792a3fe50001ebff27",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:44:58.927Z",
+      "id": "6af48d7a2a3fe50001ebff2b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:00.104Z",
+      "id": "6af48d7c2a3fe50001ebff2f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:01.217Z",
+      "id": "6af48d7d2a3fe50001ebff32",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:02.298Z",
+      "id": "6af48d7eae322a00013ca463",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:03.358Z",
+      "id": "6af48d7fae322a00013ca465",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:04.412Z",
+      "id": "6af48d80ae322a00013ca467",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:05.467Z",
+      "id": "6af48d812a3fe50001ebff3e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:06.514Z",
+      "id": "6af48d82ae322a00013ca46b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:07.602Z",
+      "id": "6af48d83ae322a00013ca46c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:08.696Z",
+      "id": "6af48d842a3fe50001ebff44",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:09.750Z",
+      "id": "6af48d852a3fe50001ebff46",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:10.847Z",
+      "id": "6af48d86ae322a00013ca473",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:11.895Z",
+      "id": "6af48d872a3fe50001ebff48",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:12.939Z",
+      "id": "6af48d88ae322a00013ca477",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:13.991Z",
+      "id": "6af48d8aae322a00013ca47d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:15.039Z",
+      "id": "6af48d8bae322a00013ca481",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:16.096Z",
+      "id": "6af48d8c2a3fe50001ebff51",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:17.290Z",
+      "id": "6af48d8dae322a00013ca485",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:18.335Z",
+      "id": "6af48d8eae322a00013ca487",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:19.404Z",
+      "id": "6af48d8f2a3fe50001ebff55",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:20.458Z",
+      "id": "6af48d902a3fe50001ebff58",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:21.505Z",
+      "id": "6af48d91ae322a00013ca490",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:22.578Z",
+      "id": "6af48d92ae322a00013ca492",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:23.648Z",
+      "id": "6af48d932a3fe50001ebff5e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:24.702Z",
+      "id": "6af48d942a3fe50001ebff61",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:26.005Z",
+      "id": "6af48d96ae322a00013ca496",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:27.052Z",
+      "id": "6af48d972a3fe50001ebff64",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:28.302Z",
+      "id": "6af48d982a3fe50001ebff65",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:29.603Z",
+      "id": "6af48d99ae322a00013ca49b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:30.678Z",
+      "id": "6af48d9aae322a00013ca49e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:31.729Z",
+      "id": "6af48d9b2a3fe50001ebff6b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:32.789Z",
+      "id": "6af48d9c2a3fe50001ebff6e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:33.837Z",
+      "id": "6af48d9d2a3fe50001ebff6f",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:34.886Z",
+      "id": "6af48d9e2a3fe50001ebff70",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:35.960Z",
+      "id": "6af48d9f2a3fe50001ebff71",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:37.029Z",
+      "id": "6af48da12a3fe50001ebff73",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:38.074Z",
+      "id": "6af48da2ae322a00013ca4ad",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:39.124Z",
+      "id": "6af48da3ae322a00013ca4af",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:40.176Z",
+      "id": "6af48da4ae322a00013ca4b1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:41.244Z",
+      "id": "6af48da52a3fe50001ebff7d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:42.346Z",
+      "id": "6af48da6ae322a00013ca4b8",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:43.389Z",
+      "id": "6af48da72a3fe50001ebff83",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:44.439Z",
+      "id": "6af48da82a3fe50001ebff84",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:45.514Z",
+      "id": "6af48da92a3fe50001ebff86",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:46.559Z",
+      "id": "6af48daaae322a00013ca4c0",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:47.617Z",
+      "id": "6af48dabae322a00013ca4c3",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:48.672Z",
+      "id": "6af48dacae322a00013ca4c6",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:49.738Z",
+      "id": "6af48dad2a3fe50001ebff8c",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:50.792Z",
+      "id": "6af48dae2a3fe50001ebff8e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:51.837Z",
+      "id": "6af48dafae322a00013ca4cf",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:52.891Z",
+      "id": "6af48db0ae322a00013ca4d0",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:53.944Z",
+      "id": "6af48db1ae322a00013ca4d4",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:55.028Z",
+      "id": "6af48db32a3fe50001ebff93",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:56.096Z",
+      "id": "6af48db4ae322a00013ca4d9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:57.146Z",
+      "id": "6af48db52a3fe50001ebff96",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:58.189Z",
+      "id": "6af48db6ae322a00013ca4dd",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:45:59.242Z",
+      "id": "6af48db7ae322a00013ca4df",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:00.312Z",
+      "id": "6af48db8ae322a00013ca4e1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:01.416Z",
+      "id": "6af48db92a3fe50001ebffa3",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:02.500Z",
+      "id": "6af48dbaae322a00013ca4e9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:03.570Z",
+      "id": "6af48dbb2a3fe50001ebffa9",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:04.686Z",
+      "id": "6af48dbc2a3fe50001ebffac",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:05.794Z",
+      "id": "6af48dbdae322a00013ca4f1",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:06.880Z",
+      "id": "6af48dbeae322a00013ca4f3",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:07.941Z",
+      "id": "6af48dbfae322a00013ca4f5",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:08.992Z",
+      "id": "6af48dc1ae322a00013ca4f7",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:10.059Z",
+      "id": "6af48dc22a3fe50001ebffb6",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:11.129Z",
+      "id": "6af48dc32a3fe50001ebffba",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:12.186Z",
+      "id": "6af48dc4ae322a00013ca4fa",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:13.233Z",
+      "id": "6af48dc5ae322a00013ca4fc",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:14.284Z",
+      "id": "6af48dc6ae322a00013ca500",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:15.339Z",
+      "id": "6af48dc7ae322a00013ca503",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:16.393Z",
+      "id": "6af48dc8ae322a00013ca506",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:17.452Z",
+      "id": "6af48dc9ae322a00013ca509",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:18.533Z",
+      "id": "6af48dcaae322a00013ca50b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:19.709Z",
+      "id": "6af48dcb2a3fe50001ebffcd",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:20.757Z",
+      "id": "6af48dcc2a3fe50001ebffcf",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:21.805Z",
+      "id": "6af48dcd2a3fe50001ebffd2",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:22.854Z",
+      "id": "6af48dceae322a00013ca511",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:23.905Z",
+      "id": "6af48dcfae322a00013ca512",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:24.965Z",
+      "id": "6af48dd02a3fe50001ebffd6",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:26.021Z",
+      "id": "6af48dd22a3fe50001ebffd7",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:27.062Z",
+      "id": "6af48dd3ae322a00013ca516",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:28.116Z",
+      "id": "6af48dd4ae322a00013ca518",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:29.265Z",
+      "id": "6af48dd5ae322a00013ca519",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:30.322Z",
+      "id": "6af48dd6ae322a00013ca51a",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:31.368Z",
+      "id": "6af48dd7ae322a00013ca51d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:32.436Z",
+      "id": "6af48dd8ae322a00013ca520",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:33.482Z",
+      "id": "6af48dd9ae322a00013ca521",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:34.566Z",
+      "id": "6af48ddaae322a00013ca522",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:35.617Z",
+      "id": "6af48ddbae322a00013ca523",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:36.687Z",
+      "id": "6af48ddc2a3fe50001ebffe4",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:37.741Z",
+      "id": "6af48dddae322a00013ca526",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:38.809Z",
+      "id": "6af48dde2a3fe50001ebffe7",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:39.860Z",
+      "id": "6af48ddf2a3fe50001ebffea",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:40.905Z",
+      "id": "6af48de02a3fe50001ebffec",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:41.981Z",
+      "id": "6af48de12a3fe50001ebffee",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:43.040Z",
+      "id": "6af48de3ae322a00013ca535",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:44.084Z",
+      "id": "6af48de4ae322a00013ca536",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:45.137Z",
+      "id": "6af48de5ae322a00013ca539",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:46.262Z",
+      "id": "6af48de62a3fe50001ebfff3",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:47.316Z",
+      "id": "6af48de7ae322a00013ca53e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:48.373Z",
+      "id": "6af48de8ae322a00013ca540",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:49.509Z",
+      "id": "6af48de9ae322a00013ca544",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:50.580Z",
+      "id": "6af48dea2a3fe50001ebfffa",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:51.653Z",
+      "id": "6af48debae322a00013ca548",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:53.050Z",
+      "id": "6af48dedae322a00013ca54b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:54.097Z",
+      "id": "6af48deeae322a00013ca54d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:55.152Z",
+      "id": "6af48defae322a00013ca550",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:56.202Z",
+      "id": "6af48df0ae322a00013ca552",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:57.271Z",
+      "id": "6af48df12a3fe50001ec0000",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:58.328Z",
+      "id": "6af48df22a3fe50001ec0002",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:46:59.374Z",
+      "id": "6af48df3ae322a00013ca55b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:00.449Z",
+      "id": "6af48df4ae322a00013ca55e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:01.526Z",
+      "id": "6af48df52a3fe50001ec0007",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:02.593Z",
+      "id": "6af48df62a3fe50001ec000a",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:03.672Z",
+      "id": "6af48df72a3fe50001ec000e",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:04.725Z",
+      "id": "6af48df82a3fe50001ec0012",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:05.779Z",
+      "id": "6af48df9ae322a00013ca56b",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:06.868Z",
+      "id": "6af48dfaae322a00013ca56d",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    },
+    {
+      "sentAt": "2026-11-11T15:47:07.922Z",
+      "id": "6af48dfb2a3fe50001ec0016",
+      "error": null,
+      "openAtSend": 1000,
+      "delivered": 1000
+    }
+  ]
+}

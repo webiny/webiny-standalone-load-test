@@ -1,0 +1,14 @@
+# On the EC2 loadgen instance: k6 alone, against the system-under-test instance's nginx.
+# scripts/run.sh starts it over SSH when LOADGEN is set.
+#   SUT_IP=10.88.1.20 docker compose -f compose.loadgen.yml run --rm k6 run /scripts/ramp.js
+services:
+    k6:
+        image: grafana/k6:latest
+        volumes:
+            - ./k6:/scripts:ro
+            - ./results:/results
+        environment:
+            API_URL: http://${SUT_IP:?set SUT_IP}:3002
+            API_KEY: ${API_KEY:-}
+        ulimits:
+            nofile: 65536

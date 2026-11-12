@@ -1,0 +1,19 @@
+triggered 200/200 testingRun tasks 
+{
+  "definition": "testingRun",
+  "count": 200,
+  "triggered": 200,
+  "triggerErrors": {},
+  "byStatus": {
+    "success": 200
+  },
+  "byIterations": {
+    "1": 200
+  },
+  "triggerToFinishMs": {
+    "p50": 566,
+    "p95": 5990,
+    "max": 6246
+  },
+  "notFinal": []
+}

@@ -1,0 +1,29 @@
+# On the EC2 system-under-test instance (c7g.2xlarge, 8 cores without SMT), on top of compose.yml:
+# every container pinned to cores of its own, so nothing else on the host can take its CPU. The
+# `cpus` and memory limits from compose.yml stay, so the numbers compare with the local runs.
+# k6 runs on the loadgen instance (compose.loadgen.yml).
+#   COMPOSE_FILE=compose.yml:compose.ec2.yml
+services:
+    postgres:
+        cpuset: "0,1"
+    # Restarted when they die, as a process manager would in production: scenario 3 at 110 req/s
+    # gets both processes OOM-killed at their 1 GB limit (finding 06), and what matters then is
+    # whether the scheduled actions still run, exactly once, after the restart.
+    api-1:
+        cpuset: "2,3"
+        restart: unless-stopped
+    api-2:
+        cpuset: "4,5"
+        restart: unless-stopped
+    nginx:
+        cpuset: "6"
+    valkey:
+        cpuset: "6"
+    admin:
+        cpuset: "6"
+    # Side clients of scenarios 3 and 4 (scheduling, task checks, websockets); light, kept apart
+    # from the stack on the core the OS and the samplers use.
+    client:
+        cpuset: "7"
+        environment:
+            API_URL: http://nginx:3002

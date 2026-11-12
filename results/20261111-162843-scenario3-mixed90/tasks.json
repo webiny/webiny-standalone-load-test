@@ -1,0 +1,18 @@
+{
+  "definition": "testingRun",
+  "count": 200,
+  "triggered": 200,
+  "triggerErrors": {},
+  "byStatus": {
+    "success": 200
+  },
+  "byIterations": {
+    "1": 200
+  },
+  "triggerToFinishMs": {
+    "p50": 1471,
+    "p95": 5973,
+    "max": 6465
+  },
+  "notFinal": []
+}

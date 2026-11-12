@@ -1,0 +1,11 @@
+postgres-1  | 2026-11-11 11:50:58.058 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 11:55:28.265 UTC [27] LOG:  checkpoint complete: wrote 9445 buffers (57.6%); 0 WAL file(s) added, 0 removed, 8 recycled; write=269.996 s, sync=0.155 s, total=270.208 s; sync files=518, longest=0.022 s, average=0.001 s; distance=133747 kB, estimate=236749 kB; lsn=0/F4FA0B70, redo lsn=0/F0D0DAB8
+postgres-1  | 2026-11-11 11:55:58.268 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 12:00:28.083 UTC [27] LOG:  checkpoint complete: wrote 4288 buffers (26.2%); 0 WAL file(s) added, 0 removed, 5 recycled; write=269.751 s, sync=0.036 s, total=269.817 s; sync files=61, longest=0.003 s, average=0.001 s; distance=72516 kB, estimate=220326 kB; lsn=0/F8B528E0, redo lsn=0/F53DED08
+postgres-1  | 2026-11-11 12:00:58.089 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 12:05:28.108 UTC [27] LOG:  checkpoint complete: wrote 4910 buffers (30.0%); 0 WAL file(s) added, 0 removed, 3 recycled; write=269.982 s, sync=0.025 s, total=270.020 s; sync files=62, longest=0.003 s, average=0.001 s; distance=59929 kB, estimate=204286 kB; lsn=0/FBC81740, redo lsn=0/F8E654A0
+postgres-1  | 2026-11-11 12:05:58.110 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 12:10:28.131 UTC [27] LOG:  checkpoint complete: wrote 4293 buffers (26.2%); 0 WAL file(s) added, 0 removed, 3 recycled; write=269.966 s, sync=0.034 s, total=270.022 s; sync files=61, longest=0.002 s, average=0.001 s; distance=50367 kB, estimate=188894 kB; lsn=0/FFD33A00, redo lsn=0/FBF95310
+postgres-1  | 2026-11-11 12:10:58.134 UTC [27] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 12:15:28.125 UTC [27] LOG:  checkpoint complete: wrote 6598 buffers (40.3%); 0 WAL file(s) added, 0 removed, 5 recycled; write=269.957 s, sync=0.028 s, total=269.992 s; sync files=62, longest=0.002 s, average=0.001 s; distance=65986 kB, estimate=176603 kB; lsn=1/3722F30, redo lsn=1/5E80
+postgres-1  | 2026-11-11 12:15:58.077 UTC [27] LOG:  checkpoint starting: time

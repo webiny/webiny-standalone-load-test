@@ -1,2 +1,8 @@
 .env
 node_modules/
+builds/
+.k6.env
+ec2/state.env*
+ec2/.ssh/
+report/node_modules/
+report/report.html

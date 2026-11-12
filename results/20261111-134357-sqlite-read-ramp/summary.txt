@@ -1,0 +1,549 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: /scripts/ramp.js
+        output: json (/results/20261111-134357-sqlite-read-ramp/k6.json.gz)
+
+     scenarios: (100.00%) 1 scenario, 800 max VUs, 40m30s max duration (incl. graceful stop):
+              * ramp: Up to 800.00 iterations/s for 40m0s over 80 stages (maxVUs: 50-800, gracefulStop: 30s)
+
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+
+
+  █ THRESHOLDS 
+
+    failed
+    ✓ 'rate<0.5' rate=0.00%
+
+      {settled:1}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:10}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:11}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:12}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:13}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:14}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:15}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:16}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:17}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:18}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:19}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:2}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:20}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:21}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:22}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:23}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:24}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:25}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:26}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:27}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:28}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:29}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:3}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:30}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:31}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:32}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:33}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:34}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:35}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:36}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:37}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:38}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:39}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:4}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:40}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:5}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:6}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:7}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:8}
+      ✓ 'rate<0.01' rate=0.00%
+
+      {settled:9}
+      ✓ 'rate<0.01' rate=0.00%
+
+    http_req_duration{settled:1}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:10}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:11}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:12}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:13}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:14}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:15}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:16}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:17}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:18}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:19}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:2}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:20}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:21}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:22}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:23}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:24}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:25}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:26}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:27}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:28}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:29}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:3}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:30}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:31}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:32}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:33}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:34}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:35}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:36}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:37}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:38}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:39}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:4}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:40}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:5}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:6}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:7}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:8}
+    ✓ 'p(95)<1000' p(95)=0s
+
+    http_req_duration{settled:9}
+    ✓ 'p(95)<1000' p(95)=0s
+
+
+  █ TOTAL RESULTS 
+
+    CUSTOM
+    failed.........................: 0.00%  0 out of 0
+      { settled:1 }................: 0.00%  0 out of 0
+      { settled:10 }...............: 0.00%  0 out of 0
+      { settled:11 }...............: 0.00%  0 out of 0
+      { settled:12 }...............: 0.00%  0 out of 0
+      { settled:13 }...............: 0.00%  0 out of 0
+      { settled:14 }...............: 0.00%  0 out of 0
+      { settled:15 }...............: 0.00%  0 out of 0
+      { settled:16 }...............: 0.00%  0 out of 0
+      { settled:17 }...............: 0.00%  0 out of 0
+      { settled:18 }...............: 0.00%  0 out of 0
+      { settled:19 }...............: 0.00%  0 out of 0
+      { settled:2 }................: 0.00%  0 out of 0
+      { settled:20 }...............: 0.00%  0 out of 0
+      { settled:21 }...............: 0.00%  0 out of 0
+      { settled:22 }...............: 0.00%  0 out of 0
+      { settled:23 }...............: 0.00%  0 out of 0
+      { settled:24 }...............: 0.00%  0 out of 0
+      { settled:25 }...............: 0.00%  0 out of 0
+      { settled:26 }...............: 0.00%  0 out of 0
+      { settled:27 }...............: 0.00%  0 out of 0
+      { settled:28 }...............: 0.00%  0 out of 0
+      { settled:29 }...............: 0.00%  0 out of 0
+      { settled:3 }................: 0.00%  0 out of 0
+      { settled:30 }...............: 0.00%  0 out of 0
+      { settled:31 }...............: 0.00%  0 out of 0
+      { settled:32 }...............: 0.00%  0 out of 0
+      { settled:33 }...............: 0.00%  0 out of 0
+      { settled:34 }...............: 0.00%  0 out of 0
+      { settled:35 }...............: 0.00%  0 out of 0
+      { settled:36 }...............: 0.00%  0 out of 0
+      { settled:37 }...............: 0.00%  0 out of 0
+      { settled:38 }...............: 0.00%  0 out of 0
+      { settled:39 }...............: 0.00%  0 out of 0
+      { settled:4 }................: 0.00%  0 out of 0
+      { settled:40 }...............: 0.00%  0 out of 0
+      { settled:5 }................: 0.00%  0 out of 0
+      { settled:6 }................: 0.00%  0 out of 0
+      { settled:7 }................: 0.00%  0 out of 0
+      { settled:8 }................: 0.00%  0 out of 0
+      { settled:9 }................: 0.00%  0 out of 0
+
+    HTTP
+    http_req_duration..............: avg=680.35ms min=567.69ms med=643.35ms p(90)=787.24ms p(95)=846.82ms p(99)=1.15s max=1.33s
+      { expected_response:true }...: avg=680.35ms min=567.69ms med=643.35ms p(90)=787.24ms p(95)=846.82ms p(99)=1.15s max=1.33s
+      { settled:1 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:10 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:11 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:12 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:13 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:14 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:15 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:16 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:17 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:18 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:19 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:2 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:20 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:21 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:22 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:23 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:24 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:25 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:26 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:27 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:28 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:29 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:3 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:30 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:31 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:32 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:33 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:34 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:35 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:36 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:37 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:38 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:39 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:4 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:40 }...............: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:5 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:6 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:7 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:8 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+      { settled:9 }................: avg=0s       min=0s       med=0s       p(90)=0s       p(95)=0s       p(99)=0s    max=0s   
+    http_req_failed................: 0.00%  0 out of 88
+    http_reqs......................: 88     1.4666/s
+
+    EXECUTION
+    vus............................: 0      min=0       max=0 
+    vus_max........................: 50     min=50      max=50
+
+    NETWORK
+    data_received..................: 603 kB 10 kB/s
+    data_sent......................: 54 kB  891 B/s
+
+
+
+
+Run    [ 100% ] setup()
+ramp   [   0% ]
+time="2026-11-11T12:44:58Z" level=error msg="setup() execution timed out after 60 seconds" hint="You can increase the time limit via the setupTimeout option"
+

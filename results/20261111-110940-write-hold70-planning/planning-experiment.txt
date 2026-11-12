@@ -1,0 +1,4 @@
+ALL      n=30 median=5.27 ms p90=7.89 ms min=4.25
+TOKONLY  n=30 median=1.39 ms p90=2.44 ms min=1.10
+FEW      n=30 median=4.64 ms p90=5.85 ms min=3.73
+FEWTOK   n=30 median=2.93 ms p90=6.16 ms min=0.93

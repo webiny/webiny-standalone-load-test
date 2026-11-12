@@ -1,0 +1,25 @@
+time,container,cpu,mem
+12:43:57,webiny-standalone-load-test-sqlite-nginx-1,0.05%,9.801MiB / 128MiB
+12:43:57,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:43:57,webiny-standalone-load-test-sqlite-api-1,109.89%,192.8MiB / 1GiB
+12:44:05,webiny-standalone-load-test-sqlite-nginx-1,0.09%,9.648MiB / 128MiB
+12:44:05,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:05,webiny-standalone-load-test-sqlite-api-1,153.25%,256.9MiB / 1GiB
+12:44:13,webiny-standalone-load-test-sqlite-nginx-1,0.11%,9.762MiB / 128MiB
+12:44:13,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:13,webiny-standalone-load-test-sqlite-api-1,158.78%,265.7MiB / 1GiB
+12:44:20,webiny-standalone-load-test-sqlite-nginx-1,0.07%,9.348MiB / 128MiB
+12:44:20,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:20,webiny-standalone-load-test-sqlite-api-1,146.30%,273.2MiB / 1GiB
+12:44:28,webiny-standalone-load-test-sqlite-nginx-1,0.12%,9.258MiB / 128MiB
+12:44:28,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:28,webiny-standalone-load-test-sqlite-api-1,149.00%,280.5MiB / 1GiB
+12:44:36,webiny-standalone-load-test-sqlite-nginx-1,0.10%,9.086MiB / 128MiB
+12:44:36,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:36,webiny-standalone-load-test-sqlite-api-1,146.87%,289.1MiB / 1GiB
+12:44:43,webiny-standalone-load-test-sqlite-nginx-1,0.13%,9.223MiB / 128MiB
+12:44:43,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:43,webiny-standalone-load-test-sqlite-api-1,145.36%,290.4MiB / 1GiB
+12:44:51,webiny-standalone-load-test-sqlite-nginx-1,0.08%,9.215MiB / 128MiB
+12:44:51,webiny-standalone-load-test-sqlite-admin-1,0.00%,8.262MiB / 7.654GiB
+12:44:51,webiny-standalone-load-test-sqlite-api-1,156.16%,300.4MiB / 1GiB

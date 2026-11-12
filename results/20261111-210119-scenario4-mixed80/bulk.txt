@@ -1,0 +1,42 @@
+bulk action: {"data":{"bulkActionLoadArticle":{"data":{"id":"6af4d7db7697450001874e55"},"error":null}}}
+21:02:31 published=110 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":1}}}}}
+21:02:36 published=202 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:02:41 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:02:46 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:02:51 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:02:56 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:01 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:06 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:11 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:16 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:21 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:26 published=210 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:31 published=423 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:36 published=710 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:41 published=909 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:46 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:51 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:03:56 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:01 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:06 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:12 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:17 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:22 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:27 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:32 published=1000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2}}}}}
+21:04:37 published=1200 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":4}}}}}
+21:04:42 published=1498 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":4}}}}}
+21:04:47 published=1812 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":4}}}}}
+21:04:52 published=2000 task={"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5}}}}}
+{"data":{"listLoadArticles":{"meta":{"totalCount":2000}}}}root/6af4d7e07697450001874e5d|{"count":1,"savedOn":"2026-11-11T21:02:24.412Z"}
+root/6af4d7e07697450001874e5c|{"count":1,"savedOn":"2026-11-11T21:02:24.341Z"}
+root/6af4d7db7697450001874e59|{"count":1,"savedOn":"2026-11-11T21:02:22.506Z"}
+root/6af4d7db7697450001874e55|{"count":1,"savedOn":"2026-11-11T21:02:24.661Z"}
+root/6af4d7e07697450001874e5f|{"count":1,"savedOn":"2026-11-11T21:02:24.622Z"}
+root/6af4d7e07697450001874e5e|{"count":1,"savedOn":"2026-11-11T21:02:24.501Z"}
+root/6af4d7e07697450001874e5b|{"count":1,"savedOn":"2026-11-11T21:02:24.278Z"}
+root/6af4d7dc7697450001874e5a|{"count":1,"savedOn":"2026-11-11T21:02:23.971Z"}
+root/6af4d7db7697450001874e58|{"count":1,"savedOn":"2026-11-11T21:02:19.962Z"}
+root/6af4d7db7697450001874e57|{"count":1,"savedOn":"2026-11-11T21:02:19.897Z"}
+root/6af4d7db7697450001874e56|{"count":1,"savedOn":"2026-11-11T21:02:19.840Z"}
+root/6af4d7db7697450001874e55|"28d7fbb2d45c:1:ee256f0e"

@@ -1,0 +1,89 @@
+time,state,wait_event_type,count
+10:09:41,idle,Client,4
+10:09:46,idle,Client,4
+10:09:52,active,,1
+10:09:52,idle,Client,19
+10:09:57,active,,1
+10:09:57,idle,Client,18
+10:09:57,idle in transaction,Client,1
+10:10:02,active,,2
+10:10:02,idle,Client,18
+10:10:07,active,,1
+10:10:07,idle,Client,19
+10:10:13,idle,Client,13
+10:10:13,idle in transaction,Client,7
+10:10:18,active,,1
+10:10:18,idle,Client,16
+10:10:18,idle in transaction,Client,3
+10:10:23,active,,2
+10:10:23,idle,Client,13
+10:10:23,idle in transaction,Client,5
+10:10:29,active,,2
+10:10:29,idle,,1
+10:10:29,idle,Client,17
+10:10:34,active,,1
+10:10:34,idle,Client,19
+10:10:39,active,,2
+10:10:39,idle,Client,18
+10:10:44,idle,Client,19
+10:10:44,idle in transaction,Client,1
+10:10:50,active,,2
+10:10:50,active,Client,2
+10:10:50,active,Timeout,1
+10:10:50,idle,Client,5
+10:10:50,idle in transaction,Client,11
+10:10:55,active,,1
+10:10:55,idle,Client,19
+10:11:00,idle,Client,19
+10:11:00,idle in transaction,Client,1
+10:11:06,active,,1
+10:11:06,idle,Client,19
+10:11:11,idle,Client,19
+10:11:11,idle in transaction,Client,1
+10:11:16,idle,,1
+10:11:16,idle,Client,19
+10:11:21,active,,1
+10:11:21,idle,Client,15
+10:11:21,idle in transaction,Client,4
+10:11:27,idle,Client,19
+10:11:27,idle in transaction,,1
+10:11:32,idle,Client,20
+10:11:37,idle,Client,19
+10:11:37,idle in transaction,Client,1
+10:11:42,active,,2
+10:11:42,idle,Client,15
+10:11:42,idle in transaction,Client,3
+10:11:48,active,,1
+10:11:48,active,Timeout,1
+10:11:48,idle,Client,15
+10:11:48,idle in transaction,Client,4
+10:11:53,active,,1
+10:11:53,active,IO,1
+10:11:53,idle,Client,5
+10:11:53,idle in transaction,Client,14
+10:11:59,active,,1
+10:11:59,active,IO,1
+10:11:59,idle,Client,12
+10:11:59,idle in transaction,Client,6
+10:12:05,active,,1
+10:12:05,idle,Client,18
+10:12:05,idle in transaction,Client,1
+10:12:10,active,,1
+10:12:10,idle,Client,19
+10:12:15,active,,1
+10:12:15,idle,,1
+10:12:15,idle,Client,12
+10:12:15,idle in transaction,Client,6
+10:12:21,active,,1
+10:12:21,idle,Client,19
+10:12:26,active,,3
+10:12:26,idle,Client,17
+10:12:31,active,,1
+10:12:31,idle,Client,19
+10:12:36,idle,Client,17
+10:12:36,idle in transaction,Client,3
+10:12:41,active,,4
+10:12:41,idle,Client,10
+10:12:41,idle in transaction,Client,6
+10:12:48,active,Timeout,1
+10:12:48,idle,Client,20

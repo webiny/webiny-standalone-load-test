@@ -1,0 +1,45 @@
+time,state,wait_event_type,count
+16:42:58,idle,Client,4
+16:43:03,active,,1
+16:43:03,idle,Client,3
+16:43:09,idle,Client,4
+16:43:14,idle,Client,4
+16:43:19,idle,Client,4
+16:43:24,idle,Client,4
+16:43:29,idle,Client,4
+16:43:34,idle,Client,4
+16:43:40,idle,Client,4
+16:43:45,idle,Client,6
+16:43:50,idle,Client,6
+16:43:55,idle,Client,6
+16:44:00,active,,1
+16:44:00,idle,Client,5
+16:44:06,idle,Client,6
+16:44:11,active,,1
+16:44:11,idle,Client,6
+16:44:16,idle,Client,6
+16:44:22,idle,Client,6
+16:44:27,idle,Client,6
+16:44:27,idle in transaction,Client,1
+16:44:32,idle,Client,7
+16:44:38,idle,Client,7
+16:44:43,active,,2
+16:44:43,idle,Client,4
+16:44:43,idle in transaction,Client,1
+16:44:48,idle,Client,7
+16:44:48,idle in transaction,Client,1
+16:44:54,idle,Client,8
+16:44:59,active,,1
+16:44:59,idle,Client,5
+16:44:59,idle in transaction,Client,2
+16:45:05,idle,Client,12
+16:45:05,idle in transaction,Client,2
+16:45:11,idle,Client,14
+16:45:11,idle in transaction,Client,2
+16:45:16,active,,1
+16:45:16,idle,Client,15
+16:45:22,active,,1
+16:45:22,idle,Client,14
+16:45:22,idle in transaction,Client,1
+16:45:27,idle,Client,17
+16:45:33,idle,Client,19

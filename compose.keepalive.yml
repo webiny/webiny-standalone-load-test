@@ -1,0 +1,5 @@
+# docker compose -f compose.yml -f compose.keepalive.yml up -d nginx
+services:
+    nginx:
+        volumes:
+            - ./nginx/nginx-keepalive.conf:/etc/nginx/nginx.conf:ro

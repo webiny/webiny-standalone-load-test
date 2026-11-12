@@ -1,0 +1,629 @@
+{
+  "connections": 1000,
+  "opened": 1000,
+  "openErrors": 0,
+  "openSeconds": 20.19659619140625,
+  "openMs": {
+    "p50": 55,
+    "p95": 124,
+    "max": 222
+  },
+  "messages": 60,
+  "createFailures": 0,
+  "expectedDeliveries": 60000,
+  "deliveries": 60000,
+  "lost": 0,
+  "latencyMs": {
+    "p50": 57,
+    "p95": 91,
+    "p99": 134,
+    "max": 167
+  },
+  "stillOpenAtEnd": 1000,
+  "closes": {},
+  "otherMessages": 0,
+  "unmatchedFolderMessages": 0,
+  "reconnects": 0,
+  "perMessage": [
+    {
+      "id": "6af44b5071cec5000125bf19",
+      "createStatus": 200,
+      "createMs": 127,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 121,
+      "p95": 135,
+      "max": 137
+    },
+    {
+      "id": "6af44b519a1d1c00018f598a",
+      "createStatus": 200,
+      "createMs": 164,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 156,
+      "p95": 166,
+      "max": 167
+    },
+    {
+      "id": "6af44b5271cec5000125bf1a",
+      "createStatus": 200,
+      "createMs": 77,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 74,
+      "p95": 86,
+      "max": 88
+    },
+    {
+      "id": "6af44b539a1d1c00018f598b",
+      "createStatus": 200,
+      "createMs": 87,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 83,
+      "p95": 92,
+      "max": 93
+    },
+    {
+      "id": "6af44b5471cec5000125bf1b",
+      "createStatus": 200,
+      "createMs": 57,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 55,
+      "p95": 68,
+      "max": 70
+    },
+    {
+      "id": "6af44b569a1d1c00018f598c",
+      "createStatus": 200,
+      "createMs": 64,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 63,
+      "p95": 71,
+      "max": 72
+    },
+    {
+      "id": "6af44b5771cec5000125bf1c",
+      "createStatus": 200,
+      "createMs": 60,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 59,
+      "p95": 69,
+      "max": 70
+    },
+    {
+      "id": "6af44b589a1d1c00018f598d",
+      "createStatus": 200,
+      "createMs": 65,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 60,
+      "p95": 68,
+      "max": 69
+    },
+    {
+      "id": "6af44b5971cec5000125bf1d",
+      "createStatus": 200,
+      "createMs": 99,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 94,
+      "p95": 106,
+      "max": 106
+    },
+    {
+      "id": "6af44b5a9a1d1c00018f598e",
+      "createStatus": 200,
+      "createMs": 63,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 60,
+      "p95": 70,
+      "max": 71
+    },
+    {
+      "id": "6af44b5b71cec5000125bf1e",
+      "createStatus": 200,
+      "createMs": 59,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 57,
+      "p95": 68,
+      "max": 68
+    },
+    {
+      "id": "6af44b5c9a1d1c00018f598f",
+      "createStatus": 200,
+      "createMs": 71,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 67,
+      "p95": 77,
+      "max": 78
+    },
+    {
+      "id": "6af44b5d71cec5000125bf1f",
+      "createStatus": 200,
+      "createMs": 58,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 56,
+      "p95": 66,
+      "max": 67
+    },
+    {
+      "id": "6af44b5e9a1d1c00018f5990",
+      "createStatus": 200,
+      "createMs": 68,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 64,
+      "p95": 83,
+      "max": 84
+    },
+    {
+      "id": "6af44b5f71cec5000125bf20",
+      "createStatus": 200,
+      "createMs": 68,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 64,
+      "p95": 72,
+      "max": 73
+    },
+    {
+      "id": "6af44b609a1d1c00018f5991",
+      "createStatus": 200,
+      "createMs": 60,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 58,
+      "p95": 65,
+      "max": 65
+    },
+    {
+      "id": "6af44b6171cec5000125bf21",
+      "createStatus": 200,
+      "createMs": 68,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 67,
+      "p95": 85,
+      "max": 87
+    },
+    {
+      "id": "6af44b629a1d1c00018f5992",
+      "createStatus": 200,
+      "createMs": 65,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 63,
+      "p95": 73,
+      "max": 74
+    },
+    {
+      "id": "6af44b6371cec5000125bf22",
+      "createStatus": 200,
+      "createMs": 56,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 54,
+      "p95": 66,
+      "max": 67
+    },
+    {
+      "id": "6af44b649a1d1c00018f5993",
+      "createStatus": 200,
+      "createMs": 74,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 70,
+      "p95": 77,
+      "max": 78
+    },
+    {
+      "id": "6af44b6671cec5000125bf23",
+      "createStatus": 200,
+      "createMs": 63,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 60,
+      "p95": 69,
+      "max": 70
+    },
+    {
+      "id": "6af44b679a1d1c00018f5994",
+      "createStatus": 200,
+      "createMs": 56,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 54,
+      "p95": 61,
+      "max": 62
+    },
+    {
+      "id": "6af44b6871cec5000125bf24",
+      "createStatus": 200,
+      "createMs": 50,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 50,
+      "p95": 56,
+      "max": 58
+    },
+    {
+      "id": "6af44b699a1d1c00018f5995",
+      "createStatus": 200,
+      "createMs": 64,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 61,
+      "p95": 68,
+      "max": 68
+    },
+    {
+      "id": "6af44b6a71cec5000125bf25",
+      "createStatus": 200,
+      "createMs": 54,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 52,
+      "p95": 61,
+      "max": 61
+    },
+    {
+      "id": "6af44b6b9a1d1c00018f5996",
+      "createStatus": 200,
+      "createMs": 66,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 64,
+      "p95": 72,
+      "max": 73
+    },
+    {
+      "id": "6af44b6c71cec5000125bf26",
+      "createStatus": 200,
+      "createMs": 91,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 89,
+      "p95": 101,
+      "max": 102
+    },
+    {
+      "id": "6af44b6d9a1d1c00018f5997",
+      "createStatus": 200,
+      "createMs": 78,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 76,
+      "p95": 83,
+      "max": 84
+    },
+    {
+      "id": "6af44b6e71cec5000125bf27",
+      "createStatus": 200,
+      "createMs": 59,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 56,
+      "p95": 67,
+      "max": 67
+    },
+    {
+      "id": "6af44b6f9a1d1c00018f5998",
+      "createStatus": 200,
+      "createMs": 86,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 80,
+      "p95": 90,
+      "max": 92
+    },
+    {
+      "id": "6af44b7071cec5000125bf28",
+      "createStatus": 200,
+      "createMs": 64,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 62,
+      "p95": 69,
+      "max": 71
+    },
+    {
+      "id": "6af44b719a1d1c00018f5999",
+      "createStatus": 200,
+      "createMs": 65,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 62,
+      "p95": 69,
+      "max": 69
+    },
+    {
+      "id": "6af44b7271cec5000125bf29",
+      "createStatus": 200,
+      "createMs": 62,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 61,
+      "p95": 69,
+      "max": 70
+    },
+    {
+      "id": "6af44b739a1d1c00018f599a",
+      "createStatus": 200,
+      "createMs": 58,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 55,
+      "p95": 62,
+      "max": 62
+    },
+    {
+      "id": "6af44b7471cec5000125bf2a",
+      "createStatus": 200,
+      "createMs": 73,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 69,
+      "p95": 81,
+      "max": 82
+    },
+    {
+      "id": "6af44b769a1d1c00018f599b",
+      "createStatus": 200,
+      "createMs": 78,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 69,
+      "p95": 81,
+      "max": 82
+    },
+    {
+      "id": "6af44b7771cec5000125bf2b",
+      "createStatus": 200,
+      "createMs": 81,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 76,
+      "p95": 84,
+      "max": 84
+    },
+    {
+      "id": "6af44b789a1d1c00018f599c",
+      "createStatus": 200,
+      "createMs": 54,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 51,
+      "p95": 60,
+      "max": 60
+    },
+    {
+      "id": "6af44b7971cec5000125bf2c",
+      "createStatus": 200,
+      "createMs": 76,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 75,
+      "p95": 86,
+      "max": 88
+    },
+    {
+      "id": "6af44b7a9a1d1c00018f599d",
+      "createStatus": 200,
+      "createMs": 84,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 80,
+      "p95": 87,
+      "max": 88
+    },
+    {
+      "id": "6af44b7b71cec5000125bf2d",
+      "createStatus": 200,
+      "createMs": 56,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 55,
+      "p95": 62,
+      "max": 64
+    },
+    {
+      "id": "6af44b7c9a1d1c00018f599e",
+      "createStatus": 200,
+      "createMs": 72,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 67,
+      "p95": 74,
+      "max": 75
+    },
+    {
+      "id": "6af44b7d71cec5000125bf2e",
+      "createStatus": 200,
+      "createMs": 53,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 51,
+      "p95": 59,
+      "max": 59
+    },
+    {
+      "id": "6af44b7e9a1d1c00018f599f",
+      "createStatus": 200,
+      "createMs": 58,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 56,
+      "p95": 62,
+      "max": 63
+    },
+    {
+      "id": "6af44b7f71cec5000125bf2f",
+      "createStatus": 200,
+      "createMs": 60,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 58,
+      "p95": 66,
+      "max": 67
+    },
+    {
+      "id": "6af44b809a1d1c00018f59a0",
+      "createStatus": 200,
+      "createMs": 51,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 49,
+      "p95": 55,
+      "max": 55
+    },
+    {
+      "id": "6af44b8171cec5000125bf30",
+      "createStatus": 200,
+      "createMs": 61,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 59,
+      "p95": 67,
+      "max": 68
+    },
+    {
+      "id": "6af44b829a1d1c00018f59a1",
+      "createStatus": 200,
+      "createMs": 53,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 52,
+      "p95": 57,
+      "max": 58
+    },
+    {
+      "id": "6af44b8371cec5000125bf31",
+      "createStatus": 200,
+      "createMs": 65,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 64,
+      "p95": 75,
+      "max": 75
+    },
+    {
+      "id": "6af44b849a1d1c00018f59a2",
+      "createStatus": 200,
+      "createMs": 53,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 51,
+      "p95": 57,
+      "max": 58
+    },
+    {
+      "id": "6af44b8671cec5000125bf32",
+      "createStatus": 200,
+      "createMs": 54,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 52,
+      "p95": 60,
+      "max": 61
+    },
+    {
+      "id": "6af44b879a1d1c00018f59a3",
+      "createStatus": 200,
+      "createMs": 64,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 60,
+      "p95": 66,
+      "max": 67
+    },
+    {
+      "id": "6af44b8871cec5000125bf33",
+      "createStatus": 200,
+      "createMs": 79,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 76,
+      "p95": 90,
+      "max": 90
+    },
+    {
+      "id": "6af44b899a1d1c00018f59a4",
+      "createStatus": 200,
+      "createMs": 81,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 79,
+      "p95": 86,
+      "max": 87
+    },
+    {
+      "id": "6af44b8a71cec5000125bf34",
+      "createStatus": 200,
+      "createMs": 56,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 54,
+      "p95": 60,
+      "max": 60
+    },
+    {
+      "id": "6af44b8b9a1d1c00018f59a5",
+      "createStatus": 200,
+      "createMs": 50,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 49,
+      "p95": 55,
+      "max": 56
+    },
+    {
+      "id": "6af44b8c71cec5000125bf35",
+      "createStatus": 200,
+      "createMs": 55,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 54,
+      "p95": 60,
+      "max": 62
+    },
+    {
+      "id": "6af44b8d9a1d1c00018f59a6",
+      "createStatus": 200,
+      "createMs": 54,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 52,
+      "p95": 58,
+      "max": 58
+    },
+    {
+      "id": "6af44b8e71cec5000125bf36",
+      "createStatus": 200,
+      "createMs": 53,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 52,
+      "p95": 59,
+      "max": 60
+    },
+    {
+      "id": "6af44b8f9a1d1c00018f59a7",
+      "createStatus": 200,
+      "createMs": 59,
+      "createError": null,
+      "delivered": 1000,
+      "p50": 57,
+      "p95": 63,
+      "max": 64
+    }
+  ]
+}

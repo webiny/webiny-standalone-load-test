@@ -1,0 +1,15 @@
+35516 ms total,36569,0.97 ms mean,delete from "webiny_cms_search" where "scope_id" = $1 and entry_id = ANY($2::text[])
+27454 ms total,18199,1.51 ms mean,insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n20", "n21", "n22", "n3", "n8", "scope_id", "t1", "t10", "t12", "t17", "t18", "t2", "t22", "t23", "t24", "t25", "t26", "t27", "t28", "t29", "t3", "t30", "t31", "t32", "t5", "ta1", "tok", "t
+27218 ms total,18370,1.48 ms mean,insert into "webiny_cms_search" ("b2", "b3", "entry_id", "id", "ix", "n1", "n10", "n15", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n3", "n8", "n9", "scope_id", "t1", "t10", "t11", "t12", "t17", "t18", "t2", "t22", "t23", "t24", "t25", "t26", "t27", "t28", "t29", "t3", "t30", "t31", "t32", "t4
+2176 ms total,36740,0.06 ms mean,select * from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "id" = $3 limit $4
+2139 ms total,18199,0.12 ms mean,insert into "webiny_cms_entries" ("data", "entry_id", "id", "is_latest", "is_published", "model_id", "tenant", "version", "wby_deleted") values ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2067 ms total,36759,0.06 ms mean,select * from "webiny_cms_models" where "tenant" = $1 order by "modelId" asc
+1846 ms total,54939,0.03 ms mean,select * from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and "entry_id" = $3 and "is_latest" = $4 limit $5
+1587 ms total,18370,0.09 ms mean,update "webiny_cms_entries" set "tenant" = $1, "model_id" = $2, "id" = $3, "entry_id" = $4, "version" = $5, "wby_deleted" = $6, "data" = $7 where "tenant" = $8 and "model_id" = $9 and "id" = $10
+1416 ms total,36569,0.04 ms mean,select "entry_id", "version", "is_latest", "is_published", "data" from "webiny_cms_entries" where "tenant" = $1 and "model_id" = $2 and ("is_latest" = $3 or "is_published" = $4) and entry_id = ANY($5::text[])
+1119 ms total,36569,0.03 ms mean,WITH m AS MATERIALIZED (SELECT entry_id, id, n1 AS sort_key FROM "webiny_cms_search" WHERE CASE WHEN scope_id = $1 AND view = $2 THEN $6 ELSE $7 END AND ix AND (tok @> $3::text[] AND (tsv @@ $4::tsquery AND EXISTS (SELECT $8 FROM unnest(ta1) v WHERE v::text ILIKE $5))) LIMIT $9) SELECT c.total, p.en
+698 ms total,36751,0.02 ms mean,select * from "webiny_core_tenants" where "id" in ($1)
+579 ms total,36751,0.02 ms mean,select * from "webiny_core_api_keys" where "tenant" = $1 and "token" = $2 limit $3
+485 ms total,36569,0.01 ms mean,SELECT index_mode FROM "webiny_cms_scopes" WHERE scope_id = $1
+474 ms total,36569,0.01 ms mean,select * from "webiny_core_key_value" where "scopedKey" = $1 limit $2
+292 ms total,36589,0.01 ms mean,SET LOCAL enable_seqscan = off

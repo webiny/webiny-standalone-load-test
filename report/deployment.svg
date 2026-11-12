@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a-http" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b4252"/></marker>
+    <marker id="a-sql" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#336791"/></marker>
+    <marker id="a-pub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6d4aff"/></marker>
+  </defs>
+  <style>
+    .t { font-size: 14px; font-weight: 700; fill: #1d2433; }
+    .s { font-size: 11px; fill: #5b6475; }
+    .h { font-size: 13px; font-weight: 700; fill: #1d2433; }
+    .lbl { font-size: 11px; fill: #3b4252; }
+  </style>
+
+  <!-- VPC -->
+  <rect x="10" y="10" width="880" height="540" rx="14" fill="#fbfbfc" stroke="#b8bfcc" stroke-dasharray="6 5"/>
+  <text x="28" y="34" class="s">VPC 10.88.0.0/16 · one subnet · created for the test, deleted afterwards</text>
+
+  <!-- load generator -->
+  <rect x="30" y="58" width="180" height="150" rx="10" fill="#f1f3f6" stroke="#9aa3b2"/>
+  <text x="46" y="82" class="h">Load generator</text>
+  <text x="46" y="99" class="s">EC2 c7g.xlarge · 4 cores</text>
+  <rect x="48" y="114" width="144" height="74" rx="8" fill="#ffffff" stroke="#3b4252" stroke-width="1.5"/>
+  <text x="62" y="140" class="t">k6</text>
+  <text x="62" y="158" class="s">load generator</text>
+  <text x="62" y="173" class="s">ramps, soak traffic</text>
+
+  <!-- Webiny server -->
+  <rect x="240" y="40" width="630" height="490" rx="10" fill="#f1f3f6" stroke="#9aa3b2"/>
+  <text x="258" y="66" class="h">Webiny server</text>
+  <text x="258" y="83" class="s">EC2 c7g.2xlarge · 8 cores · Docker Compose, each container pinned to its own cores</text>
+
+  <!-- k6 -> nginx -->
+  <path d="M192,140 H453" stroke="#3b4252" stroke-width="2" fill="none" marker-end="url(#a-http)"/>
+  <text x="262" y="132" class="lbl">HTTP + websockets</text>
+
+  <!-- nginx -->
+  <rect x="455" y="105" width="200" height="64" rx="8" fill="#eef8f1" stroke="#2f9e5b" stroke-width="1.5"/>
+  <text x="471" y="130" class="t">nginx</text>
+  <text x="471" y="148" class="s">round-robin · port 3002</text>
+  <text x="471" y="162" class="s">core 6</text>
+
+  <!-- nginx -> apis -->
+  <path d="M555,169 V190 H365 V213" stroke="#3b4252" stroke-width="2" fill="none" marker-end="url(#a-http)"/>
+  <path d="M555,190 H745 V213" stroke="#3b4252" stroke-width="2" fill="none" marker-end="url(#a-http)"/>
+
+  <!-- api-1 -->
+  <rect x="270" y="215" width="190" height="84" rx="8" fill="#fff4ef" stroke="#fa5723" stroke-width="1.5"/>
+  <text x="286" y="240" class="t">api-1</text>
+  <text x="286" y="258" class="s">Webiny API, one Node process</text>
+  <text x="286" y="273" class="s">cores 2-3</text>
+  <text x="286" y="288" class="s">limit 1.5 CPU · 1 GB</text>
+
+  <!-- api-2 -->
+  <rect x="650" y="215" width="190" height="84" rx="8" fill="#fff4ef" stroke="#fa5723" stroke-width="1.5"/>
+  <text x="666" y="240" class="t">api-2</text>
+  <text x="666" y="258" class="s">Webiny API, one Node process</text>
+  <text x="666" y="273" class="s">cores 4-5</text>
+  <text x="666" y="288" class="s">limit 1.5 CPU · 1 GB</text>
+
+  <!-- valkey -->
+  <rect x="497" y="221" width="116" height="72" rx="8" fill="#f3effe" stroke="#6d4aff" stroke-width="1.5"/>
+  <text x="511" y="245" class="t">valkey</text>
+  <text x="511" y="263" class="s">core 6</text>
+  <text x="511" y="278" class="s">0.5 CPU · 256 MB</text>
+
+  <!-- pub/sub -->
+  <path d="M462,257 H495" stroke="#6d4aff" stroke-width="2" stroke-dasharray="5 3" fill="none" marker-start="url(#a-pub)" marker-end="url(#a-pub)"/>
+  <path d="M615,257 H648" stroke="#6d4aff" stroke-width="2" stroke-dasharray="5 3" fill="none" marker-start="url(#a-pub)" marker-end="url(#a-pub)"/>
+
+  <!-- SQL -->
+  <path d="M365,299 V343" stroke="#336791" stroke-width="2" fill="none" marker-end="url(#a-sql)"/>
+  <path d="M745,299 V343" stroke="#336791" stroke-width="2" fill="none" marker-end="url(#a-sql)"/>
+  <text x="373" y="326" class="lbl">SQL · pool of 10</text>
+  <text x="753" y="326" class="lbl">SQL · pool of 10</text>
+
+  <!-- postgres -->
+  <rect x="270" y="345" width="570" height="82" rx="8" fill="#eef3f8" stroke="#336791" stroke-width="1.5"/>
+  <text x="286" y="370" class="t">postgres 17</text>
+  <text x="286" y="388" class="s">cores 0-1 · limit 2 CPU · 2 GB</text>
+  <text x="286" y="408" class="s">CMS entries · scheduler claims · background tasks · websocket registry</text>
+
+  <!-- side containers -->
+  <rect x="270" y="449" width="270" height="60" rx="8" fill="#ffffff" stroke="#b8bfcc" stroke-dasharray="4 3"/>
+  <text x="286" y="473" class="h">admin</text>
+  <text x="286" y="491" class="s">static Admin files · port 3001 · core 6 · idle</text>
+  <rect x="570" y="449" width="270" height="60" rx="8" fill="#ffffff" stroke="#b8bfcc" stroke-dasharray="4 3"/>
+  <text x="586" y="473" class="h">client</text>
+  <text x="586" y="491" class="s">scenario 3 and 4 scripts · core 7</text>
+
+  <!-- legend -->
+  <text x="30" y="262" class="h">Connections</text>
+  <path d="M32,284 H72" stroke="#3b4252" stroke-width="2" marker-end="url(#a-http)"/>
+  <text x="82" y="288" class="lbl">HTTP, websockets</text>
+  <path d="M32,308 H72" stroke="#336791" stroke-width="2" marker-end="url(#a-sql)"/>
+  <text x="82" y="312" class="lbl">SQL</text>
+  <path d="M32,332 H72" stroke="#6d4aff" stroke-width="2" stroke-dasharray="5 3" marker-start="url(#a-pub)" marker-end="url(#a-pub)"/>
+  <text x="82" y="336" class="lbl">Valkey pub/sub</text>
+  <text x="30" y="372" class="h">Boxes</text>
+  <rect x="32" y="384" width="40" height="18" rx="4" fill="#f1f3f6" stroke="#9aa3b2"/>
+  <text x="82" y="397" class="lbl">EC2 instance</text>
+  <rect x="32" y="410" width="40" height="18" rx="4" fill="#fff4ef" stroke="#fa5723"/>
+  <text x="82" y="423" class="lbl">Docker container</text>
+  <rect x="32" y="436" width="40" height="18" rx="4" fill="#ffffff" stroke="#b8bfcc" stroke-dasharray="4 3"/>
+  <text x="82" y="449" class="lbl">not under test</text>
+</svg>

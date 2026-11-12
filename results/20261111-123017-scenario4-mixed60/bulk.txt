@@ -1,0 +1,132 @@
+bulk action: {"data":{"bulkActionLoadArticle":{"data":{"id":"6af45205d53336000185c3e8"},"error":null}}}
+11:31:26 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":1,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:31 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":1,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:36 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:41 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:46 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:51 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:31:56 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:01 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:07 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:12 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:17 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:22 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:27 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:32 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:37 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:42 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:47 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:52 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:32:57 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:02 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:08 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:13 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:18 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:23 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:28 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:33 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":2,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:38 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":4,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:43 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":4,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:48 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:53 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:33:58 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:03 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:08 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:14 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:19 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:24 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:29 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:34 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:39 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:44 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:49 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:54 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:34:59 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:04 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:09 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:14 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:19 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:24 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:30 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:35 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:40 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:45 {"data":{"backgroundTasks":{"getTask":{"data":{"taskStatus":"running","iterations":5,"startedOn":"2026-11-11T11:31:17.493Z","finishedOn":null,"executionName":"6af45205d53336000185c3e8"}}}}}
+11:35:50 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:35:55 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:01 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:06 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:11 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:16 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:21 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:26 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:31 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:36 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:41 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:46 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:52 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:36:57 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:02 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:07 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:12 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:17 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:22 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:27 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:32 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:37 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:42 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:47 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:53 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:37:58 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:03 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:08 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:13 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:18 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:23 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:28 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:33 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:38 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:43 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:49 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:54 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:38:59 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:04 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:09 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:14 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:19 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:24 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:29 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:34 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:39 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:44 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:50 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:39:55 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:00 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:05 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:10 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:15 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:20 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:25 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:30 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:35 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:40 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:46 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:51 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:40:56 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:01 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:06 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:11 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:16 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:21 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:26 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+11:41:31 {"data":{"backgroundTasks":{"getTask":{"data":null}}}}
+{"data":{"listLoadArticles":{"meta":{"totalCount":2000}}}}root/6af4520bd53336000185c3f0|{"count":1,"savedOn":"2026-11-11T11:31:23.167Z"}
+root/6af45205d53336000185c3ec|{"count":1,"savedOn":"2026-11-11T11:31:18.092Z"}
+root/6af4520ad53336000185c3ef|{"count":1,"savedOn":"2026-11-11T11:31:23.067Z"}
+root/6af45205d53336000185c3e8|{"count":1,"savedOn":"2026-11-11T11:31:23.592Z"}
+root/6af4520bd53336000185c3f2|{"count":1,"savedOn":"2026-11-11T11:31:23.572Z"}
+root/6af4520bd53336000185c3f1|{"count":1,"savedOn":"2026-11-11T11:31:23.376Z"}
+root/6af4520ad53336000185c3ee|{"count":1,"savedOn":"2026-11-11T11:31:22.969Z"}
+root/6af45206d53336000185c3ed|{"count":1,"savedOn":"2026-11-11T11:31:21.988Z"}
+root/6af45205d53336000185c3eb|{"count":1,"savedOn":"2026-11-11T11:31:17.952Z"}
+root/6af45205d53336000185c3ea|{"count":1,"savedOn":"2026-11-11T11:31:17.889Z"}
+root/6af45205d53336000185c3e9|{"count":1,"savedOn":"2026-11-11T11:31:17.844Z"}

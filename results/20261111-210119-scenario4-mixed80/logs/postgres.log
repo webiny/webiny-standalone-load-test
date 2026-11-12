@@ -1,0 +1,46 @@
+postgres-1  | 2026-11-11 21:02:26.127 UTC [67111] LOG:  could not receive data from client: Connection reset by peer
+postgres-1  | 2026-11-11 21:02:26.127 UTC [67111] LOG:  unexpected EOF on client connection with an open transaction
+postgres-1  | 2026-11-11 21:02:26.135 UTC [67095] LOG:  could not receive data from client: Connection reset by peer
+postgres-1  | 2026-11-11 21:02:26.135 UTC [67095] LOG:  unexpected EOF on client connection with an open transaction
+postgres-1  | 2026-11-11 21:02:26.140 UTC [67489] LOG:  could not receive data from client: Connection reset by peer
+postgres-1  | 2026-11-11 21:02:26.140 UTC [67489] LOG:  unexpected EOF on client connection with an open transaction
+postgres-1  | 2026-11-11 21:02:32.981 UTC [67550] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:32.981 UTC [67550] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e58) already exists.
+postgres-1  | 2026-11-11 21:02:32.981 UTC [67550] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:32.999 UTC [67532] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:32.999 UTC [67532] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e57) already exists.
+postgres-1  | 2026-11-11 21:02:32.999 UTC [67532] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:33.011 UTC [67532] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:33.011 UTC [67532] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e56) already exists.
+postgres-1  | 2026-11-11 21:02:33.011 UTC [67532] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:53.457 UTC [67495] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:53.457 UTC [67495] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e58) already exists.
+postgres-1  | 2026-11-11 21:02:53.457 UTC [67495] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:53.461 UTC [67495] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:53.461 UTC [67495] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e57) already exists.
+postgres-1  | 2026-11-11 21:02:53.461 UTC [67495] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:53.463 UTC [67495] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:53.463 UTC [67495] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e56) already exists.
+postgres-1  | 2026-11-11 21:02:53.463 UTC [67495] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:02:53.464 UTC [67495] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:02:53.464 UTC [67495] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:02:53.464 UTC [67495] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:03:28.244 UTC [67565] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:03:28.244 UTC [67565] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:03:28.244 UTC [67565] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:03:53.421 UTC [67097] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:03:53.421 UTC [67097] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:03:53.421 UTC [67097] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:04:27.894 UTC [67844] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:04:27.894 UTC [67844] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:04:27.894 UTC [67844] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:04:53.428 UTC [67103] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:04:53.428 UTC [67103] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:04:53.428 UTC [67103] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:05:27.891 UTC [68169] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:05:27.891 UTC [68169] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:05:27.891 UTC [68169] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)
+postgres-1  | 2026-11-11 21:05:51.230 UTC [61] LOG:  checkpoint starting: time
+postgres-1  | 2026-11-11 21:05:58.628 UTC [67097] ERROR:  duplicate key value violates unique constraint "webiny_core_key_value_pkey"
+postgres-1  | 2026-11-11 21:05:58.628 UTC [67097] DETAIL:  Key ("scopedKey")=(background-tasks/claims:root/6af4d7db7697450001874e55) already exists.
+postgres-1  | 2026-11-11 21:05:58.628 UTC [67097] STATEMENT:  insert into "webiny_core_key_value" ("expiresAt", "key", "scope", "scopedKey", "value") values ($1, $2, $3, $4, $5)

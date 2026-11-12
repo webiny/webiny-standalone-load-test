@@ -1,0 +1,182 @@
+time,state,wait_event_type,count
+18:25:07,idle,Client,5
+18:25:12,idle,Client,5
+18:25:17,active,,1
+18:25:17,idle,Client,4
+18:25:23,idle,Client,5
+18:25:28,idle,Client,5
+18:25:33,idle,Client,4
+18:25:38,idle,Client,4
+18:25:43,idle,Client,4
+18:25:48,idle,Client,4
+18:25:53,idle,Client,4
+18:25:58,idle,Client,5
+18:26:03,active,,1
+18:26:03,idle,Client,4
+18:26:09,idle,Client,5
+18:26:14,idle,Client,5
+18:26:19,idle,Client,5
+18:26:24,active,,1
+18:26:24,idle,Client,4
+18:26:29,idle,Client,4
+18:26:34,active,,1
+18:26:34,idle,Client,3
+18:26:39,idle,Client,4
+18:26:44,idle,Client,4
+18:26:49,idle,Client,4
+18:26:55,idle,Client,7
+18:27:00,idle,Client,7
+18:27:05,idle,Client,7
+18:27:10,idle,Client,7
+18:27:15,active,,1
+18:27:15,idle,Client,6
+18:27:20,idle,Client,7
+18:27:25,idle,Client,4
+18:27:30,active,,1
+18:27:30,idle,Client,3
+18:27:35,idle,Client,4
+18:27:41,active,,1
+18:27:41,idle,Client,3
+18:27:46,idle,Client,4
+18:27:51,idle,Client,4
+18:27:56,idle,Client,7
+18:28:01,idle,Client,7
+18:28:06,idle,Client,7
+18:28:11,idle,Client,7
+18:28:16,active,,1
+18:28:16,idle,Client,6
+18:28:21,active,,1
+18:28:21,idle,Client,6
+18:28:27,idle,Client,4
+18:28:32,idle,Client,4
+18:28:37,idle,Client,4
+18:28:42,active,,1
+18:28:42,idle,Client,3
+18:28:47,active,,1
+18:28:47,idle,Client,3
+18:28:52,idle,Client,4
+18:28:57,active,,1
+18:28:57,idle,Client,5
+18:29:02,idle,Client,6
+18:29:08,idle,Client,6
+18:29:13,idle,Client,6
+18:29:18,idle,Client,6
+18:29:23,idle,Client,6
+18:29:28,idle,Client,6
+18:29:33,active,,1
+18:29:33,idle,Client,5
+18:29:38,active,,1
+18:29:38,idle,Client,5
+18:29:43,active,,1
+18:29:43,idle,Client,5
+18:29:49,idle,Client,6
+18:29:54,active,,1
+18:29:54,idle,Client,5
+18:29:59,active,,1
+18:29:59,idle,Client,6
+18:30:04,idle,Client,6
+18:30:04,idle in transaction,Client,1
+18:30:09,idle,Client,7
+18:30:14,active,,1
+18:30:14,idle,Client,6
+18:30:19,active,,1
+18:30:19,idle,Client,7
+18:30:24,idle,Client,8
+18:30:29,idle,Client,8
+18:30:35,idle,Client,8
+18:30:40,idle,Client,8
+18:30:45,active,,1
+18:30:45,idle,Client,7
+18:30:50,idle,Client,7
+18:30:50,idle in transaction,Client,1
+18:30:55,active,,1
+18:30:55,idle,Client,7
+18:31:00,active,,1
+18:31:00,idle,Client,6
+18:31:00,idle in transaction,Client,1
+18:31:05,active,,1
+18:31:05,idle,Client,7
+18:31:10,idle,Client,8
+18:31:16,active,,1
+18:31:16,idle,Client,7
+18:31:21,active,,1
+18:31:21,idle,Client,7
+18:31:26,idle,Client,7
+18:31:26,idle in transaction,Client,1
+18:31:31,idle,Client,8
+18:31:36,idle,Client,8
+18:31:36,idle in transaction,Client,1
+18:31:41,idle,Client,9
+18:31:46,idle,Client,9
+18:31:51,active,,1
+18:31:51,idle,Client,8
+18:31:57,active,,1
+18:31:57,idle,Client,9
+18:32:02,active,,1
+18:32:02,idle,,1
+18:32:02,idle,Client,8
+18:32:07,idle,Client,9
+18:32:07,idle in transaction,Client,1
+18:32:12,active,,1
+18:32:12,idle,Client,9
+18:32:17,active,,1
+18:32:17,idle,Client,9
+18:32:22,active,,1
+18:32:22,idle,Client,10
+18:32:27,active,Client,1
+18:32:27,idle,Client,10
+18:32:32,active,,2
+18:32:32,idle,Client,10
+18:32:38,active,,1
+18:32:38,idle,Client,11
+18:32:43,idle,Client,11
+18:32:43,idle in transaction,Client,1
+18:32:48,idle,Client,11
+18:32:48,idle in transaction,Client,1
+18:32:53,active,,1
+18:32:53,idle,Client,11
+18:32:58,active,,1
+18:32:58,idle,Client,14
+18:33:03,active,,2
+18:33:03,idle,Client,12
+18:33:03,idle in transaction,Client,1
+18:33:08,active,,1
+18:33:08,idle,Client,14
+18:33:13,idle,Client,15
+18:33:19,idle,Client,14
+18:33:19,idle in transaction,Client,1
+18:33:24,active,,1
+18:33:24,idle,Client,14
+18:33:24,idle in transaction,Client,1
+18:33:29,active,,1
+18:33:29,idle,Client,13
+18:33:34,active,,1
+18:33:34,idle,Client,12
+18:33:39,active,,1
+18:33:39,idle,Client,12
+18:33:44,active,Client,1
+18:33:44,idle,Client,13
+18:33:44,idle in transaction,Client,1
+18:33:49,active,,1
+18:33:49,idle,Client,12
+18:33:49,idle in transaction,Client,2
+18:33:55,active,,2
+18:33:55,idle,Client,12
+18:33:55,idle in transaction,Client,1
+18:34:00,active,,2
+18:34:00,idle,Client,15
+18:34:05,idle,Client,16
+18:34:05,idle in transaction,Client,1
+18:34:10,active,,1
+18:34:10,idle,Client,15
+18:34:10,idle in transaction,Client,1
+18:34:15,active,,2
+18:34:15,idle,Client,16
+18:34:15,idle in transaction,Client,2
+18:34:20,idle,Client,16
+18:34:20,idle in transaction,Client,4
+18:34:25,active,,2
+18:34:25,idle,,1
+18:34:25,idle,Client,13
+18:34:25,idle in transaction,Client,4
+18:34:30,idle,Client,20

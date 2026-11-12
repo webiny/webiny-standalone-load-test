@@ -1,0 +1,17 @@
+created 300/300 drafts
+scheduled 300/300 in 12.4 s, due 2026-11-11T15:31:44.001Z
+waiting until 2026-11-11T15:34:44.001Z
+{
+  "run": "mwc9ywjl",
+  "count": 300,
+  "created": 300,
+  "scheduled": 300,
+  "scheduleErrors": {},
+  "dueAt": "2026-11-11T15:31:44.001Z",
+  "spreadSec": 0,
+  "checkedAt": "2026-11-11T15:34:45.651Z",
+  "entryStatus": {
+    "published": 300
+  },
+  "actionsStillPending": 0
+}
